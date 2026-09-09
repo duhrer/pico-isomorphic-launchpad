@@ -13,32 +13,112 @@ enum LaunchpadVersion {
   MK3
 };
 
+struct LaunchpadControlScheme {
+    uint8_t UpArrow;
+    uint8_t DownArrow;
+    uint8_t LeftArrow;
+    uint8_t RightArrow;
+
+    uint8_t ModeOne;
+    uint8_t ModeTwo;
+    uint8_t ModeThree;
+    uint8_t ModeFour;
+    uint8_t ModeFive;
+    uint8_t ModeSix;
+    uint8_t ModeSeven;
+    uint8_t ModeEight;
+
+    uint8_t ColourSchemeOne;
+    uint8_t ColourSchemeTwo;
+};
+
+static const struct LaunchpadControlScheme MarkTwoControlScheme = {
+    // Top Round Pads
+    .UpArrow    = 91,
+    .DownArrow  = 92,
+    .LeftArrow  = 93,
+    .RightArrow = 94,
+
+    // Bottom Round Pads
+    .ModeOne    = 1,
+    .ModeTwo    = 2,
+    .ModeThree  = 3,
+    .ModeFour   = 4,
+    .ModeFive   = 5,
+    .ModeSix    = 6,
+    .ModeSeven  = 7,
+    .ModeEight  = 8,
+
+    // Right Round Pads
+    .ColourSchemeOne = 29,
+    .ColourSchemeTwo = 19,
+};
+
+static const struct LaunchpadControlScheme MarkThreeControlScheme = {
+    // Top Round Pads
+    .UpArrow    = 80,
+    .DownArrow  = 70,
+    .LeftArrow  = 91,
+    .RightArrow = 92,
+
+    // Bottom Round Pads
+    .ModeOne    = 101,
+    .ModeTwo    = 102,
+    .ModeThree  = 103,
+    .ModeFour   = 104,
+    .ModeFive   = 105,
+    .ModeSix    = 106,
+    .ModeSeven  = 107,
+    .ModeEight  = 108,
+
+    // Right Round Pads
+    .ColourSchemeOne = 29,
+    .ColourSchemeTwo = 19,
+};
+
+
 struct NoteLayout {
     uint8_t row_pitch_offset;
     uint8_t column_pitch_offset;
 };
 
-// The Wicki-Hayden layout suggested based on existing instruments
-static const struct NoteLayout WickiHaydenUnstaggeredNoteLayout = {
-    .row_pitch_offset = 5,
-    .column_pitch_offset = 2
-};
-
-// "Staggered" Layout rotated 45 degrees clockwise
-static const struct NoteLayout WickiHaydenStaggeredNoteLayout = {
+// Staggered layout
+static const struct NoteLayout WickiHaydenStaggered = {
     .row_pitch_offset = 5,
     .column_pitch_offset = 7
 };
 
-static const struct NoteLayout TonnetzUnstaggeredNoteLayout = {
+
+// "Unstaggered" Layout rotated 45 degrees clockwise, set as the default to match
+// existing instruments.
+static const struct NoteLayout WickiHaydenUnstaggeredClockwise = {
+    .row_pitch_offset = 5,
+    .column_pitch_offset = 2
+};
+
+// "Unstaggered" Layout skewed 45 degrees counterclockwise
+static const struct NoteLayout WickiHaydenUnstaggeredCounterclockwise = {
+    .row_pitch_offset = 7,
+    .column_pitch_offset = 2
+};
+
+
+// "Staggered" Layout
+static const struct NoteLayout TonnetzStaggered = {
+    .row_pitch_offset = 3,
+    .column_pitch_offset = 4 
+};
+
+// "Unstaggered" Layout skewed 45 degrees clockwise
+static const struct NoteLayout TonnetzUnstaggeredClockwise = {
     .row_pitch_offset = 4,
     .column_pitch_offset = 3 
 };
 
-// "Staggered" Layout rotated 45 degrees clockwise
-static const struct NoteLayout TonnetzStaggeredNoteLayout = {
-    .row_pitch_offset = 8,
-    .column_pitch_offset = 3 
+// "Unstaggered" Layout skewed 45 degrees counterclockwise
+static const struct NoteLayout TonnetzUnstaggeredCounterclockwise = {
+    .row_pitch_offset = 3,
+    .column_pitch_offset = 7 
 };
 
 
@@ -161,6 +241,8 @@ void process_incoming_mk1_packet (uint8_t*, struct board_state*, enum HostOrClie
 void process_incoming_mk2_packet (uint8_t*, struct board_state*, enum HostOrClient);
 void process_incoming_mk3_packet (uint8_t*, struct board_state*, enum HostOrClient);
 void process_incoming_external_packet(uint8_t*, struct board_state*);
+
+void process_incoming_control_code (uint8_t, struct board_state*, const struct LaunchpadControlScheme, enum HostOrClient hostOrClient);
 
 enum LaunchpadVersion get_launchpad_version (uint16_t, uint16_t);
 

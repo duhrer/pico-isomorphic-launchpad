@@ -108,7 +108,10 @@ void paint_mk2_client_launchpads(struct board_state *board_state) {
     // The virtual port for the MK2 should be cable 1.
     tud_midi_stream_write(1, paint_row, sizeof(paint_row));
   }
- 
+
+  // TODO: Paint mode controls...
+  // TODO: Paint colour controls...
+
   // We currently use the "pulse" method for the side light.
   uint8_t paint_side_light[12] = {
     0xf0, 0x00, 0x20, 0x29, 0x2, 0x10, 0x28, 0x63, 3, 0xf7
@@ -150,6 +153,9 @@ void paint_mk3_client_launchpads(struct board_state *board_state) {
       tud_midi_stream_write(1, note_on_message, sizeof(note_on_message));
     }
   }
+
+  // TODO: Paint mode controls...
+  // TODO: Paint colour controls...
 }
 
 void paint_host_launchpad(struct board_state *board_state) {
@@ -193,12 +199,14 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
 
     // tuh_midi_stream_write(board_state->host.client_idx, 1, note_on_message, sizeof(note_on_message));
     tuh_midi_stream_write(0, 1, note_on_message, sizeof(note_on_message));
-  }
+  } 
+
+  // TODO: Paint mode controls...
+  // TODO: Paint colour controls...
 }
 
 // TODO: When we figure out sending sysex to the host's client device, we can
 // simplify this by using their sysex strategy (see the client implementation).
-// TODO: Don't paint the left column of (non square pad) buttons.
 
 void paint_mk3_host_launchpad(struct board_state *board_state) {
   for (int row = 0; row < 8; row++) {
@@ -233,6 +241,9 @@ void paint_mk3_host_launchpad(struct board_state *board_state) {
       tuh_midi_stream_write(board_state->host.client_idx, 0, note_on_message, sizeof(note_on_message));
     }
   }
+
+  // TODO: Paint mode controls...
+  // TODO: Paint colour controls...
 }
 
 void process_incoming_host_packet(uint8_t *incoming_packet, struct board_state *board_state) {
@@ -313,96 +324,9 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
     }    
   }
 
-  if (type == MIDI_CIN_CONTROL_CHANGE) {
-    // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
-    if (data[2]) {
-      switch(data[1]) {
-        // Upward arrow
-        case 91:
-          if (offset <= (MAX_OFFSET - board_state->note_layout.row_pitch_offset)) {
-            increment_offset(board_state, hostOrClient, 1, board_state->note_layout.row_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Downward arrow
-        case 92:
-          if (offset >= board_state->note_layout.row_pitch_offset) {
-            increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.row_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Left Arrow
-        case 93:
-          if (offset >= board_state->note_layout.column_pitch_offset) {
-            increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.column_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Right Arrow
-        case 94:
-          if (offset <= (MAX_OFFSET - board_state->note_layout.column_pitch_offset)) {
-            increment_offset(board_state, hostOrClient, 1, board_state->note_layout.column_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Mode/colour controls.
-        case 1:
-          board_state->note_layout = WickiHaydenUnstaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 2:
-          board_state->note_layout = WickiHaydenUnstaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 3:
-          board_state->note_layout = WickiHaydenStaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 4:
-          board_state->note_layout = WickiHaydenStaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 5:
-          board_state->note_layout = TonnetzUnstaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 6:
-          board_state->note_layout = TonnetzUnstaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 7:
-          board_state->note_layout = TonnetzStaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 8:
-          board_state->note_layout = TonnetzStaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        // Ignore everything else
-        default:
-          break;
-      }
-    }
+  // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
+  if (type == MIDI_CIN_CONTROL_CHANGE && data[2]) {
+    process_incoming_control_code((uint8_t) data[1], board_state, MarkTwoControlScheme, hostOrClient);
   }
 }
 
@@ -443,96 +367,9 @@ void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *
     }    
   }
 
-  if (type == MIDI_CIN_CONTROL_CHANGE) {
-    // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
-    if (data[2]) {
-      switch(data[1]) {
-        // Upward arrow
-        case 80:
-          if (offset <= (MAX_OFFSET - board_state->note_layout.row_pitch_offset)) {
-            increment_offset(board_state, hostOrClient, 1, board_state->note_layout.row_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Downward arrow
-        case 70:
-          if (offset >= board_state->note_layout.row_pitch_offset) {
-            increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.row_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Left Arrow
-        case 91:
-          if (offset >= board_state->note_layout.column_pitch_offset) {
-            increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.column_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Right Arrow
-        case 92:
-          if (offset <= (MAX_OFFSET - board_state->note_layout.column_pitch_offset)) {
-            increment_offset(board_state, hostOrClient, 1, board_state->note_layout.column_pitch_offset);
-            board_state->is_dirty = true;
-            clear_all_notes(board_state);
-          }
-          break;
-        // Mode/colour controls.
-        case 101:
-          board_state->note_layout = WickiHaydenUnstaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 102:
-          board_state->note_layout = WickiHaydenUnstaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 103:
-          board_state->note_layout = WickiHaydenStaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 104:
-          board_state->note_layout = WickiHaydenStaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 105:
-          board_state->note_layout = TonnetzUnstaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 106:
-          board_state->note_layout = TonnetzUnstaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 107:
-          board_state->note_layout = TonnetzStaggeredNoteLayout;
-          board_state->colour_scheme = RainbowColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        case 108:
-          board_state->note_layout = TonnetzStaggeredNoteLayout;
-          board_state->colour_scheme = RedCsColourScheme;
-          board_state->is_dirty = true;
-          clear_all_notes(board_state);
-          break;
-        // Ignore everything else
-        default:
-          break;
-      }
-    }
+  // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
+  if (type == MIDI_CIN_CONTROL_CHANGE && data[2]) {
+    process_incoming_control_code((uint8_t) data[1], board_state, MarkThreeControlScheme, hostOrClient);
   }
 }
 
@@ -553,9 +390,91 @@ void process_incoming_external_packet(uint8_t *incoming_packet, struct board_sta
     board_state->held_note_velocities[data[1]] = 0;
     board_state->is_dirty = true;
   } 
-
 }
 
+void process_incoming_control_code (uint8_t controlCodeNumber, struct board_state *board_state, struct LaunchpadControlScheme control_scheme, enum HostOrClient hostOrClient) {
+  bool state_changed = false;
+
+  int offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[1]; 
+
+  // Upward arrow
+  if (controlCodeNumber == control_scheme.UpArrow) {
+      if (offset <= (MAX_OFFSET - board_state->note_layout.row_pitch_offset)) {
+        increment_offset(board_state, hostOrClient, 1, board_state->note_layout.row_pitch_offset);
+      }
+      state_changed = true;
+  } 
+  // Downward arrow
+  else if (controlCodeNumber == control_scheme.DownArrow) {
+      if (offset >= board_state->note_layout.row_pitch_offset) {
+        increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.row_pitch_offset);
+        state_changed = true;
+      }
+  }
+  // Left Arrow
+  else if (controlCodeNumber == control_scheme.LeftArrow) {
+      if (offset >= board_state->note_layout.column_pitch_offset) {
+        increment_offset(board_state, hostOrClient, 1, -1 * board_state->note_layout.column_pitch_offset);
+        state_changed = true;
+      }
+  }
+
+  // Right Arrow
+  else if (controlCodeNumber == control_scheme.RightArrow) {
+      if (offset <= (MAX_OFFSET - board_state->note_layout.column_pitch_offset)) {
+        increment_offset(board_state, hostOrClient, 1, board_state->note_layout.column_pitch_offset);
+        state_changed = true;
+
+      }
+  }
+
+  // Mode controls.
+  else if (controlCodeNumber == control_scheme.ModeOne) {
+      board_state->note_layout = WickiHaydenUnstaggeredClockwise;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeTwo) {
+      board_state->note_layout = WickiHaydenUnstaggeredCounterclockwise;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeThree) {
+      board_state->note_layout = WickiHaydenStaggered;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeFour) {
+    // Currently unused
+  }
+  else if (controlCodeNumber == control_scheme.ModeFive) {
+      board_state->note_layout = TonnetzUnstaggeredClockwise;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeSix) {
+      board_state->note_layout = TonnetzUnstaggeredCounterclockwise;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeSeven) {
+      board_state->note_layout = TonnetzStaggered;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ModeEight) {
+    // Currently unused
+  }
+
+  // Colour Scheme Controls
+  else if (controlCodeNumber == control_scheme.ColourSchemeOne) {
+      board_state->colour_scheme = RainbowColourScheme;
+      state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ColourSchemeTwo) {
+      board_state->colour_scheme = RedCsColourScheme;
+      state_changed = true;
+  }
+
+  if (state_changed) {
+    board_state->is_dirty = true;
+    clear_all_notes(board_state);
+  }
+}
 
 enum LaunchpadVersion get_launchpad_version (uint16_t idVendor, uint16_t idProduct) {
   enum LaunchpadVersion launchpad_version;
