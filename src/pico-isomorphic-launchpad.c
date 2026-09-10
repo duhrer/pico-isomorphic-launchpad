@@ -51,7 +51,10 @@ static struct board_state board_state = {
       // .playing_note_velocities = { 0 },
 
       .colour_scheme = RainbowColourScheme,
+      .colour_scheme_index = 0,
+
       .note_layout = WickiHaydenUnstaggeredClockwise,
+      .note_layout_index = 0,
 
       .is_dirty = true,
       

@@ -83,6 +83,7 @@ struct NoteLayout {
 };
 
 // Staggered layout
+// TODO: This is still not right visually or to play.
 static const struct NoteLayout WickiHaydenStaggered = {
     .row_pitch_offset = 5,
     .column_pitch_offset = 7
@@ -106,13 +107,13 @@ static const struct NoteLayout WickiHaydenUnstaggeredCounterclockwise = {
 // "Staggered" Layout
 static const struct NoteLayout TonnetzStaggered = {
     .row_pitch_offset = 3,
-    .column_pitch_offset = 4 
+    .column_pitch_offset = 8 
 };
 
 // "Unstaggered" Layout skewed 45 degrees clockwise
 static const struct NoteLayout TonnetzUnstaggeredClockwise = {
-    .row_pitch_offset = 4,
-    .column_pitch_offset = 3 
+    .row_pitch_offset = 8,
+    .column_pitch_offset = 7 
 };
 
 // "Unstaggered" Layout skewed 45 degrees counterclockwise
@@ -133,7 +134,7 @@ struct ColourScheme {
 
 #define MAX_OFFSET 74
 
-// "Rainbow" mode uses a different colour for each natural and black for
+// "Rainbow" mode uses a di8fferent colour for each natural and black for
 // sharps/flats. Held notes are white.
 static const struct ColourScheme RainbowColourScheme = {
     .note_colour_velocities = {
@@ -197,7 +198,10 @@ struct board_state {
 
     // Shared state for all devices
     struct ColourScheme colour_scheme;
+    int colour_scheme_index;
+
     struct NoteLayout note_layout;
+    int note_layout_index;
 
     // What notes are held
     uint8_t held_note_velocities[128];

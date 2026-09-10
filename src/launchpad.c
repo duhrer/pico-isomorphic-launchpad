@@ -167,6 +167,50 @@ void paint_host_launchpad(struct board_state *board_state) {
     }
 }
 
+void generate_mode_messages(struct board_state *board_state, const struct LaunchpadControlScheme control_scheme, uint8_t channel, uint8_t *messages) {
+    messages[0] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[1] = control_scheme.ModeOne;
+    messages[2] = board_state->note_layout_index == 0 ? 127 : 0;
+ 
+    messages[3] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[4] = control_scheme.ModeTwo;
+    messages[5] = board_state->note_layout_index == 1 ? 127 : 0;
+
+    messages[6] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[7] = control_scheme.ModeThree;
+    messages[8] = board_state->note_layout_index == 2 ? 127 : 0;
+
+    messages[9] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[10] = control_scheme.ModeFour;
+    messages[11] = board_state->note_layout_index == 3 ? 127 : 0;
+
+    messages[12] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[13] = control_scheme.ModeFive;
+    messages[14] = board_state->note_layout_index == 4 ? 127 : 0;
+ 
+    messages[15] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[16] = control_scheme.ModeSix;
+    messages[17] = board_state->note_layout_index == 5 ? 127 : 0;
+
+    messages[18] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[19] = control_scheme.ModeSeven;
+    messages[20] = board_state->note_layout_index == 6 ? 127 : 0;
+
+    messages[21] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[22] = control_scheme.ModeEight;
+    messages[23] = board_state->note_layout_index == 7 ? 127 : 0;
+}
+
+void generate_colour_scheme_messages(struct board_state *board_state, const struct LaunchpadControlScheme control_scheme, uint8_t channel, uint8_t * messages) {
+    messages[0] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[1] = control_scheme.ColourSchemeOne;
+    messages[2] = board_state->colour_scheme_index == 0 ? 127 : 0;
+
+    messages[3] = (MIDI_CIN_CONTROL_CHANGE << 4) | channel;
+    messages[4] = control_scheme.ColourSchemeTwo;
+    messages[5] = board_state->colour_scheme_index == 1 ? 127 : 0;
+}
+
 // TODO: When we figure out sending sysex to the host's client device, we can simplify this.
 void paint_mk2_host_launchpad(struct board_state *board_state) {
   // Write note messages for the host side until we figure out sysex there.
@@ -201,8 +245,26 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
     tuh_midi_stream_write(0, 1, note_on_message, sizeof(note_on_message));
   } 
 
-  // TODO: Paint mode controls...
-  // TODO: Paint colour controls...
+  // Paint mode controls
+  // TODO: This is pretty brittle if we add more modes
+  uint8_t mode_messages[24];
+  generate_mode_messages(board_state, MarkTwoControlScheme, board_state -> host.global_midi_channel, mode_messages);
+
+  for (int mode_message_index = 0; mode_message_index < 24; mode_message_index += 3) {
+    uint8_t control_change_message[3];
+    memcpy(control_change_message, mode_messages + mode_message_index, 3);
+    tuh_midi_stream_write(0, 1, control_change_message, sizeof(control_change_message));
+  }
+
+  // Paint colour controls
+  // TODO: This is pretty brittle if we add another colour scheme
+  uint8_t colour_scheme_messages[6];
+  generate_colour_scheme_messages(board_state, MarkTwoControlScheme, board_state -> host.global_midi_channel, colour_scheme_messages);
+  for (int colour_message_index = 0; colour_message_index < 6; colour_message_index += 3) {
+    uint8_t control_change_message[3];
+    memcpy(control_change_message, colour_scheme_messages + colour_message_index, 3);
+    tuh_midi_stream_write(0, 1, colour_scheme_messages, sizeof(colour_scheme_messages));
+  }
 }
 
 // TODO: When we figure out sending sysex to the host's client device, we can
@@ -242,8 +304,26 @@ void paint_mk3_host_launchpad(struct board_state *board_state) {
     }
   }
 
-  // TODO: Paint mode controls...
-  // TODO: Paint colour controls...
+  // Paint mode controls
+  // TODO: This is pretty brittle if we add more modes
+  uint8_t mode_messages[24];
+  generate_mode_messages(board_state, MarkThreeControlScheme, board_state -> host.global_midi_channel, mode_messages);
+
+  for (int mode_message_index = 0; mode_message_index < 24; mode_message_index += 3) {
+    uint8_t control_change_message[3];
+    memcpy(control_change_message, mode_messages + mode_message_index, 3);
+    tuh_midi_stream_write(0, 1, control_change_message, sizeof(control_change_message));
+  }
+
+  // Paint colour controls
+  // TODO: This is pretty brittle if we add another colour scheme
+  uint8_t colour_scheme_messages[6];
+  generate_colour_scheme_messages(board_state, MarkThreeControlScheme, board_state -> host.global_midi_channel, colour_scheme_messages);
+  for (int colour_message_index = 0; colour_message_index < 6; colour_message_index += 3) {
+    uint8_t control_change_message[3];
+    memcpy(control_change_message, colour_scheme_messages + colour_message_index, 3);
+    tuh_midi_stream_write(0, 1, colour_scheme_messages, sizeof(colour_scheme_messages));
+  }
 }
 
 void process_incoming_host_packet(uint8_t *incoming_packet, struct board_state *board_state) {
@@ -424,21 +504,23 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
       if (offset <= (MAX_OFFSET - board_state->note_layout.column_pitch_offset)) {
         increment_offset(board_state, hostOrClient, 1, board_state->note_layout.column_pitch_offset);
         state_changed = true;
-
       }
   }
 
   // Mode controls.
   else if (controlCodeNumber == control_scheme.ModeOne) {
       board_state->note_layout = WickiHaydenUnstaggeredClockwise;
+      board_state->note_layout_index = 0;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeTwo) {
       board_state->note_layout = WickiHaydenUnstaggeredCounterclockwise;
+      board_state->note_layout_index = 1;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeThree) {
       board_state->note_layout = WickiHaydenStaggered;
+      board_state->note_layout_index = 2;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeFour) {
@@ -446,14 +528,17 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
   }
   else if (controlCodeNumber == control_scheme.ModeFive) {
       board_state->note_layout = TonnetzUnstaggeredClockwise;
+      board_state->note_layout_index = 4;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeSix) {
       board_state->note_layout = TonnetzUnstaggeredCounterclockwise;
+      board_state->note_layout_index = 5;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeSeven) {
       board_state->note_layout = TonnetzStaggered;
+      board_state->note_layout_index = 6;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeEight) {
@@ -463,10 +548,12 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
   // Colour Scheme Controls
   else if (controlCodeNumber == control_scheme.ColourSchemeOne) {
       board_state->colour_scheme = RainbowColourScheme;
+      board_state->colour_scheme_index = 0;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ColourSchemeTwo) {
       board_state->colour_scheme = RedCsColourScheme;
+      board_state->colour_scheme_index = 1;
       state_changed = true;
   }
 
