@@ -125,7 +125,7 @@ static const struct NoteLayout TonnetzUnstaggeredCounterclockwise = {
 
 // "Piano" Layout
 static const struct NoteLayout Piano = {
-    .row_pitch_offset = 8,
+    .row_pitch_offset = 6,
     .column_pitch_offset = 1
 };
 
