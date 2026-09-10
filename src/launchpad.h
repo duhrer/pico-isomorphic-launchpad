@@ -123,6 +123,12 @@ static const struct NoteLayout TonnetzUnstaggeredCounterclockwise = {
 };
 
 
+// "Piano" Layout
+static const struct NoteLayout Piano = {
+    .row_pitch_offset = 8,
+    .column_pitch_offset = 1
+};
+
 // Colours set with MIDI Note messages (as we use for a "host" device) are
 // limited to a particular palette, which is sent as a velocity. For this
 // reason, we use the "standard colour" mode for colours sent via sysex as well.

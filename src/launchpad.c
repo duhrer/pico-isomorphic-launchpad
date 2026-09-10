@@ -542,7 +542,9 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeEight) {
-    // Currently unused
+    board_state->note_layout = Piano;
+    board_state->note_layout_index = 7;
+    state_changed = true;
   }
 
   // Colour Scheme Controls
