@@ -6,7 +6,7 @@ understand musical relationships (such as forming chords).
 The original Tonnetz layout is arranged in "staggered" fashion, where each row
 of notes is offset by half to form a hexagonal grid:
 
-![Tonnetz octave](/images/tonnetz-staggered-octaves.svg)
+![Tonnetz octave](/images/tonnetz-staggered.svg)
 
 To arrange this "staggered" layout grid, we have two strategies.  We can either
 "skew" the rows in one direction or the other, or we can rotate the layout so

@@ -25,4 +25,8 @@ counterclockwise.
 
 ## Unstaggered Clockwise
 
+![Unstaggered, Clockwise](../images/janko-unstaggered-clockwise.svg)
+
 ## Unstaggered Counterclockwise
+
+![Unstaggered, Counterclockwise](../images/janko-unstaggered-counterclockwise.svg)
