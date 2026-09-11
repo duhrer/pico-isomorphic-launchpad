@@ -30,6 +30,7 @@ struct LaunchpadControlScheme {
 
     uint8_t ColourSchemeOne;
     uint8_t ColourSchemeTwo;
+    uint8_t ColourSchemeThree;
 };
 
 static const struct LaunchpadControlScheme MarkTwoControlScheme = {
@@ -50,8 +51,9 @@ static const struct LaunchpadControlScheme MarkTwoControlScheme = {
     .ModeEight  = 8,
 
     // Right Round Pads
-    .ColourSchemeOne = 29,
-    .ColourSchemeTwo = 19,
+    .ColourSchemeOne   = 39,
+    .ColourSchemeTwo   = 29,
+    .ColourSchemeThree = 19
 };
 
 static const struct LaunchpadControlScheme MarkThreeControlScheme = {
@@ -72,22 +74,23 @@ static const struct LaunchpadControlScheme MarkThreeControlScheme = {
     .ModeEight  = 108,
 
     // Right Round Pads
-    .ColourSchemeOne = 29,
-    .ColourSchemeTwo = 19,
+    .ColourSchemeOne   = 39,
+    .ColourSchemeTwo   = 29,
+    .ColourSchemeThree = 19
 };
 
 
 struct NoteLayout {
-    uint8_t row_pitch_offset;
-    uint8_t column_pitch_offset;
+    int8_t row_pitch_offset;
+    int8_t column_pitch_offset;
 };
 
+// Not used, results in bands of the same note along the diagonals and is less playable.
 // Staggered layout
-// TODO: This is still not right visually or to play.
-static const struct NoteLayout WickiHaydenStaggered = {
-    .row_pitch_offset = 5,
-    .column_pitch_offset = 7
-};
+// static const struct NoteLayout WickiHaydenStaggered = {
+//     .row_pitch_offset = 5,
+//     .column_pitch_offset = 7
+// };
 
 
 // "Unstaggered" Layout rotated 45 degrees clockwise, set as the default to match
@@ -106,8 +109,8 @@ static const struct NoteLayout WickiHaydenUnstaggeredCounterclockwise = {
 
 // "Staggered" Layout
 static const struct NoteLayout TonnetzStaggered = {
-    .row_pitch_offset = 3,
-    .column_pitch_offset = 8 
+    .row_pitch_offset = -4,
+    .column_pitch_offset = 3 
 };
 
 // "Unstaggered" Layout skewed 45 degrees clockwise
@@ -122,10 +125,19 @@ static const struct NoteLayout TonnetzUnstaggeredCounterclockwise = {
     .column_pitch_offset = 7 
 };
 
+static const struct NoteLayout JankoUnstaggeredClockwise = {
+    .row_pitch_offset = -1,
+    .column_pitch_offset = 2
+};
+
+static const struct NoteLayout JankoUnstaggeredCounterclockwise = {
+    .row_pitch_offset = 1,
+    .column_pitch_offset = 2
+};
 
 // "Piano" Layout
-static const struct NoteLayout Piano = {
-    .row_pitch_offset = 6,
+static const struct NoteLayout PianoMandolin = {
+    .row_pitch_offset = 7,
     .column_pitch_offset = 1
 };
 
@@ -178,6 +190,27 @@ static const struct ColourScheme RedCsColourScheme = {
         3  // B
     },
     .held_colour_velocity = 90
+};
+
+// Adapted from the "Strong Whole Tone" and "Subtle Piano" example
+// https://en.wikipedia.org/wiki/Wicki%E2%80%93Hayden_note_layout
+static const struct ColourScheme StrongSubtleBlues = {
+    // 36 = light blue, 45 = solid blue, 3 = white, 0 = black
+    .note_colour_velocities = {
+        45, // C
+        36,  // C#
+        45,  // D
+        36,  // D#
+        45,  // E
+        3,  // F
+        0,  // F#
+        3,  // G
+        0,  // G#
+        3,  // A
+        0,  // A#
+        3  // B
+    },
+    .held_colour_velocity = 84 // Orange
 };
 
 

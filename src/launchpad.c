@@ -519,30 +519,32 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeThree) {
-      board_state->note_layout = WickiHaydenStaggered;
+      board_state->note_layout = TonnetzUnstaggeredClockwise;
       board_state->note_layout_index = 2;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeFour) {
-    // Currently unused
+      board_state->note_layout = TonnetzUnstaggeredCounterclockwise;
+      board_state->note_layout_index = 3;
+      state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeFive) {
-      board_state->note_layout = TonnetzUnstaggeredClockwise;
+      board_state->note_layout = TonnetzStaggered;
       board_state->note_layout_index = 4;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeSix) {
-      board_state->note_layout = TonnetzUnstaggeredCounterclockwise;
+      board_state->note_layout = JankoUnstaggeredClockwise;
       board_state->note_layout_index = 5;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeSeven) {
-      board_state->note_layout = TonnetzStaggered;
+      board_state->note_layout = JankoUnstaggeredCounterclockwise;
       board_state->note_layout_index = 6;
       state_changed = true;
   }
   else if (controlCodeNumber == control_scheme.ModeEight) {
-    board_state->note_layout = Piano;
+    board_state->note_layout = PianoMandolin;
     board_state->note_layout_index = 7;
     state_changed = true;
   }
@@ -557,6 +559,11 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
       board_state->colour_scheme = RedCsColourScheme;
       board_state->colour_scheme_index = 1;
       state_changed = true;
+  }
+  else if (controlCodeNumber == control_scheme.ColourSchemeThree) {
+    board_state->colour_scheme = StrongSubtleBlues;
+    board_state->colour_scheme_index = 1;
+    state_changed = true;
   }
 
   if (state_changed) {

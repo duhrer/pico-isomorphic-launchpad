@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="30mm"
+   viewBox="0 0 377.95277 113.38583"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="piano-major.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1"
+     inkscape:cx="556.5"
+     inkscape:cy="129.5"
+     inkscape:window-width="2511"
+     inkscape:window-height="945"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(84.237852,-126.46956)">
+    <circle
+       style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path1"
+       cx="-31.065109"
+       cy="182.58499"
+       r="37.28297" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="circle3"
+       cx="93.34433"
+       cy="182.58499"
+       r="37.28297" />
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="circle5"
+       cx="217.75504"
+       cy="182.58499"
+       r="37.28297" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-31.393234"
+       y="200.72263"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="-31.393234"
+         y="200.72263"
+         style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="93.016197"
+       y="200.72263"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="93.016197"
+         y="200.72263"
+         style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="217.42691"
+       y="200.72263"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="217.42691"
+         y="200.72263"
+         style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+  </g>
+</svg>

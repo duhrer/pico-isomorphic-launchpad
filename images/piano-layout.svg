@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600"
+   height="600"
+   viewBox="0 0 600 600"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="piano-layout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="375.47369"
+     inkscape:cy="296.98484"
+     inkscape:window-width="1704"
+     inkscape:window-height="1344"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <rect
+       x="-108.89444"
+       y="123.74368"
+       width="802.56618"
+       height="403.05085"
+       id="rect145" />
+    <rect
+       x="-89.802559"
+       y="139.30003"
+       width="327.39044"
+       height="86.267029"
+       id="rect120" />
+    <rect
+       x="72.832001"
+       y="-43.133514"
+       width="170.41273"
+       height="116.67262"
+       id="rect10" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.765614,-11.924411)">
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect10);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       id="text120"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect120);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle32"
+       cx="49.165203"
+       cy="197.65332"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="49.579197"
+       y="204.07932"
+       id="text56"><tspan
+         sodipodi:role="line"
+         id="tspan56"
+         x="49.579197"
+         y="204.07932"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B5</tspan></text>
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle78"
+       cx="124.16521"
+       cy="197.65332"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="124.01122"
+       y="204.79333"
+       id="text78"><tspan
+         sodipodi:role="line"
+         id="tspan78"
+         x="124.01122"
+         y="204.79333"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C6</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2"
+       cx="51.822681"
+       cy="122.18084"
+       r="24.527559" />
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle8"
+       cx="126.8227"
+       cy="122.18084"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="51.640675"
+       y="132.17686"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="51.640675"
+         y="132.17686"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">F#6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="127.46668"
+       y="129.32085"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="127.46668"
+         y="129.32085"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G6</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle10"
+       cx="202.70865"
+       cy="197.65332"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.09262"
+       y="204.79333"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="202.09262"
+         y="204.79333"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#6</tspan></text>
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle65"
+       cx="50.051556"
+       cy="273.83548"
+       r="25" />
+    <circle
+       style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle66"
+       cx="125.05147"
+       cy="273.83548"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="49.700542"
+       y="282.38278"
+       id="text69"><tspan
+         sodipodi:role="line"
+         id="tspan69"
+         x="49.700542"
+         y="282.38278"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">E5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="124.40346"
+       y="280.27945"
+       id="text71"><tspan
+         sodipodi:role="line"
+         x="124.40346"
+         y="280.27945"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none"
+         id="tspan71">F5</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle71"
+       cx="200.52422"
+       cy="273.83548"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="199.8662"
+       y="284.33191"
+       id="text72"><tspan
+         sodipodi:role="line"
+         id="tspan72"
+         x="199.8662"
+         y="284.33191"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">F#5</tspan></text>
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle72"
+       cx="278.5943"
+       cy="273.36301"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="278.41229"
+       y="283.35904"
+       id="text77"><tspan
+         sodipodi:role="line"
+         id="tspan77"
+         x="278.41229"
+         y="283.35904"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">G5</tspan></text>
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle103"
+       cx="50.937897"
+       cy="348.3602"
+       r="24.527559" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle104"
+       cx="125.93789"
+       cy="348.83267"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle105"
+       cx="200.93784"
+       cy="348.83267"
+       r="25" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle106"
+       cx="275.93784"
+       cy="348.83267"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="50.279877"
+       y="358.3562"
+       id="text107"><tspan
+         sodipodi:role="line"
+         id="tspan107"
+         x="50.279877"
+         y="358.3562"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="125.51492"
+       y="355.25867"
+       id="text108"><tspan
+         sodipodi:role="line"
+         id="tspan108"
+         x="125.51492"
+         y="355.25867"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">A#4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="200.82083"
+       y="355.25867"
+       id="text109"><tspan
+         sodipodi:role="line"
+         id="tspan109"
+         x="200.82083"
+         y="355.25867"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="276.35184"
+       y="355.25867"
+       id="text110"><tspan
+         sodipodi:role="line"
+         id="tspan110"
+         x="276.35184"
+         y="355.25867"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C5</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle110"
+       cx="350.93784"
+       cy="348.83319"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="350.78384"
+       y="358.82907"
+       id="text111"><tspan
+         sodipodi:role="line"
+         id="tspan111"
+         x="350.78384"
+         y="358.82907"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#5</tspan></text>
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle112"
+       cx="201.82422"
+       cy="424.54233"
+       r="24.527559" />
+    <circle
+       style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle113"
+       cx="276.82416"
+       cy="425.0148"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle114"
+       cx="351.8241"
+       cy="425.0148"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="201.20819"
+       y="434.53836"
+       id="text115"><tspan
+         sodipodi:role="line"
+         id="tspan115"
+         x="201.20819"
+         y="434.53836"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">E4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="276.47314"
+       y="433.5621"
+       id="text116"><tspan
+         sodipodi:role="line"
+         id="tspan116"
+         x="276.47314"
+         y="433.5621"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">F4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="351.17609"
+       y="431.45877"
+       id="text117"><tspan
+         sodipodi:role="line"
+         x="351.17609"
+         y="431.45877"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none"
+         id="tspan117">D#2</tspan></text>
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle117"
+       cx="427.29681"
+       cy="425.0148"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="426.63879"
+       y="435.51123"
+       id="text118"><tspan
+         sodipodi:role="line"
+         id="tspan118"
+         x="426.63879"
+         y="435.51123"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G4</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle129"
+       cx="277.11996"
+       cy="500.01376"
+       r="25" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle130"
+       cx="427.71045"
+       cy="500.01376"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle131"
+       cx="502.71048"
+       cy="500.01376"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="276.69696"
+       y="506.43976"
+       id="text132"><tspan
+         sodipodi:role="line"
+         id="tspan132"
+         x="276.69696"
+         y="506.43976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">F#1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.59341"
+       y="506.43976"
+       id="text133"><tspan
+         sodipodi:role="line"
+         id="tspan133"
+         x="427.59341"
+         y="506.43976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="503.12442"
+       y="506.43976"
+       id="text134"><tspan
+         sodipodi:role="line"
+         id="tspan134"
+         x="503.12442"
+         y="506.43976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#4</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle136"
+       cx="428.00305"
+       cy="576.19592"
+       r="25" />
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle137"
+       cx="578.59351"
+       cy="576.19592"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.65204"
+       y="584.74323"
+       id="text138"><tspan
+         sodipodi:role="line"
+         id="tspan138"
+         x="427.65204"
+         y="584.74323"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none;font-size:20px">C#1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="577.9455"
+       y="582.63989"
+       id="text139"><tspan
+         sodipodi:role="line"
+         x="577.9455"
+         y="582.63989"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none;font-size:20px"
+         id="tspan139">G3</tspan></text>
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle151"
+       cx="200.93784"
+       cy="348.83267"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="200.82083"
+       y="355.25867"
+       id="text151"><tspan
+         sodipodi:role="line"
+         id="tspan151"
+         x="200.82083"
+         y="355.25867"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B4</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle152"
+       cx="351.8241"
+       cy="425.0148"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="351.17609"
+       y="431.45877"
+       id="text152"><tspan
+         sodipodi:role="line"
+         x="351.17609"
+         y="431.45877"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none"
+         id="tspan152">F#4</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle157"
+       cx="50.935158"
+       cy="47.180962"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="50.277138"
+       y="57.176842"
+       id="text157"><tspan
+         sodipodi:role="line"
+         id="tspan157"
+         x="50.277138"
+         y="57.176842"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#7</tspan></text>
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle165"
+       cx="49.16721"
+       cy="500.01376"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="49.581181"
+       y="506.43976"
+       id="text165"><tspan
+         sodipodi:role="line"
+         id="tspan165"
+         x="49.581181"
+         y="506.43976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G3</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle166"
+       cx="125.05028"
+       cy="576.19592"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="124.40227"
+       y="582.63989"
+       id="text166"><tspan
+         sodipodi:role="line"
+         x="124.40227"
+         y="582.63989"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none;font-size:20px"
+         id="tspan166">C#3</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle167"
+       cx="277.70956"
+       cy="499.5426"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="277.05154"
+       y="509.5386"
+       id="text167"><tspan
+         sodipodi:role="line"
+         id="tspan167"
+         x="277.05154"
+         y="509.5386"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">A#3</tspan></text>
+    <circle
+       style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle168"
+       cx="428.59537"
+       cy="575.72473"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.97934"
+       y="585.72076"
+       id="text168"><tspan
+         sodipodi:role="line"
+         id="tspan168"
+         x="427.97934"
+         y="585.72076"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;font-size:20px">F3</tspan></text>
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle169"
+       cx="352.71051"
+       cy="500.01505"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="352.28754"
+       y="506.44104"
+       id="text169"><tspan
+         sodipodi:role="line"
+         id="tspan169"
+         x="352.28754"
+         y="506.44104"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B3</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle170"
+       cx="503.59628"
+       cy="576.1972"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="503.24527"
+       y="584.74451"
+       id="text170"><tspan
+         sodipodi:role="line"
+         id="tspan170"
+         x="503.24527"
+         y="584.74451"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none;font-size:20px">F#3</tspan></text>
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle172"
+       cx="50.054001"
+       cy="576.1972"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="49.702988"
+       y="584.74451"
+       id="text172"><tspan
+         sodipodi:role="line"
+         id="tspan172"
+         x="49.702988"
+         y="584.74451"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none;font-size:20px">C3</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle174"
+       cx="126.82325"
+       cy="424.54364"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="127.46723"
+       y="434.53967"
+       id="text174"><tspan
+         sodipodi:role="line"
+         id="tspan174"
+         x="127.46723"
+         y="434.53967"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">D#4</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle175"
+       cx="51.822712"
+       cy="424.54364"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="51.640697"
+       y="434.53967"
+       id="text175"><tspan
+         sodipodi:role="line"
+         id="tspan175"
+         x="51.640697"
+         y="434.53967"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">D4</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle176"
+       cx="124.16625"
+       cy="500.01382"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="124.01226"
+       y="510.0097"
+       id="text176"><tspan
+         sodipodi:role="line"
+         id="tspan176"
+         x="124.01226"
+         y="510.0097"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#3</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle177"
+       cx="200.52475"
+       cy="576.19543"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="199.86673"
+       y="586.69189"
+       id="text177"><tspan
+         sodipodi:role="line"
+         id="tspan177"
+         x="199.86673"
+         y="586.69189"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;font-size:20px">D3</tspan></text>
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle178"
+       cx="202.7086"
+       cy="499.5426"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.09261"
+       y="509.5386"
+       id="text178"><tspan
+         sodipodi:role="line"
+         id="tspan178"
+         x="202.09261"
+         y="509.5386"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A3</tspan></text>
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle179"
+       cx="353.59442"
+       cy="575.72473"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="354.2384"
+       y="585.72076"
+       id="text179"><tspan
+         sodipodi:role="line"
+         id="tspan179"
+         x="354.2384"
+         y="585.72076"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;font-size:20px">E3</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle180"
+       cx="278.59387"
+       cy="575.72473"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="278.41187"
+       y="585.72076"
+       id="text180"><tspan
+         sodipodi:role="line"
+         id="tspan180"
+         x="278.41187"
+         y="585.72076"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-size:20px">D#3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.88976, 11.3386;stroke-opacity:1"
+       x="572.67285"
+       y="579.02411"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2" /></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle26"
+       cx="350.93784"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle27"
+       cx="427.29681"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle33"
+       cx="502.71048"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle34"
+       cx="427.29681"
+       cy="348.83319"
+       r="24.527559" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle35"
+       cx="502.71048"
+       cy="348.83319"
+       r="25" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle36"
+       cx="578.59351"
+       cy="348.83319"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle37"
+       cx="502.71048"
+       cy="425.0148"
+       r="24.527559" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle38"
+       cx="578.59351"
+       cy="425.0148"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.62048"
+       y="432.15482"
+       id="text38"><tspan
+         sodipodi:role="line"
+         id="tspan38"
+         x="502.62048"
+         y="432.15482"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="426.77682"
+       y="355.9632"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         x="426.77682"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="579.09351"
+       y="432.08481"
+       id="text40"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         x="579.09351"
+         y="432.08481"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.19049"
+       y="355.9632"
+       id="text43"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         x="502.19049"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">D#6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.04352"
+       y="355.9632"
+       id="text47"><tspan
+         sodipodi:role="line"
+         x="578.04352"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none"
+         id="tspan47">E6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="350.72784"
+       y="280.50302"
+       id="text48"><tspan
+         sodipodi:role="line"
+         id="tspan48"
+         x="350.72784"
+         y="280.50302"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.67682"
+       y="280.49301"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         x="427.67682"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="503.09048"
+       y="280.49301"
+       id="text50"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         x="503.09048"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">A#6</tspan></text>
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle50"
+       cx="578.59351"
+       cy="273.36301"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.07349"
+       y="280.49301"
+       id="text51"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="578.07349"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B6</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle51"
+       cx="578.59351"
+       cy="499.29974"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.19354"
+       y="506.33975"
+       id="text57"><tspan
+         sodipodi:role="line"
+         id="tspan54"
+         x="578.19354"
+         y="506.33975"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D5</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle57"
+       cx="350.93784"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle58"
+       cx="427.29681"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle59"
+       cx="502.71048"
+       cy="273.36301"
+       r="25" />
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle60"
+       cx="427.29681"
+       cy="348.83319"
+       r="24.527559" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle61"
+       cx="502.71048"
+       cy="348.83319"
+       r="25" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle62"
+       cx="578.59351"
+       cy="348.83319"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle67"
+       cx="502.71048"
+       cy="425.0148"
+       r="24.527559" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle68"
+       cx="578.59351"
+       cy="425.0148"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.62048"
+       y="432.15482"
+       id="text79"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         x="502.62048"
+         y="432.15482"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="426.77682"
+       y="355.9632"
+       id="text80"><tspan
+         sodipodi:role="line"
+         id="tspan80"
+         x="426.77682"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="579.09351"
+       y="432.08481"
+       id="text81"><tspan
+         sodipodi:role="line"
+         id="tspan81"
+         x="579.09351"
+         y="432.08481"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.19049"
+       y="355.9632"
+       id="text82"><tspan
+         sodipodi:role="line"
+         id="tspan82"
+         x="502.19049"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">D#5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.04352"
+       y="355.9632"
+       id="text83"><tspan
+         sodipodi:role="line"
+         x="578.04352"
+         y="355.9632"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none"
+         id="tspan83">E5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="350.72784"
+       y="280.50302"
+       id="text84"><tspan
+         sodipodi:role="line"
+         id="tspan84"
+         x="350.72784"
+         y="280.50302"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.67682"
+       y="280.49301"
+       id="text85"><tspan
+         sodipodi:role="line"
+         id="tspan85"
+         x="427.67682"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="503.09048"
+       y="280.49301"
+       id="text86"><tspan
+         sodipodi:role="line"
+         id="tspan86"
+         x="503.09048"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">A#5</tspan></text>
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle86"
+       cx="578.59351"
+       cy="273.36301"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.07349"
+       y="280.49301"
+       id="text87"><tspan
+         sodipodi:role="line"
+         id="tspan87"
+         x="578.07349"
+         y="280.49301"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B5</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle87"
+       cx="578.59351"
+       cy="499.29974"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.19354"
+       y="506.33975"
+       id="text88"><tspan
+         sodipodi:role="line"
+         id="tspan88"
+         x="578.19354"
+         y="506.33975"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D4</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle88"
+       cx="126.8227"
+       cy="47.180962"
+       r="24.527559" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle89"
+       cx="202.70865"
+       cy="47.180962"
+       r="25" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle90"
+       cx="279.48734"
+       cy="47.180962"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle91"
+       cx="202.70865"
+       cy="122.18084"
+       r="24.527559" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle92"
+       cx="279.48734"
+       cy="122.18084"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.61865"
+       y="129.32085"
+       id="text92"><tspan
+         sodipodi:role="line"
+         id="tspan92"
+         x="202.61865"
+         y="129.32085"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="126.3027"
+       y="54.310955"
+       id="text93"><tspan
+         sodipodi:role="line"
+         id="tspan93"
+         x="126.3027"
+         y="54.310955"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="279.98734"
+       y="129.25085"
+       id="text94"><tspan
+         sodipodi:role="line"
+         id="tspan94"
+         x="279.98734"
+         y="129.25085"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.18864"
+       y="54.310955"
+       id="text95"><tspan
+         sodipodi:role="line"
+         id="tspan95"
+         x="202.18864"
+         y="54.310955"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">D#6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="278.93732"
+       y="54.310955"
+       id="text96"><tspan
+         sodipodi:role="line"
+         x="278.93732"
+         y="54.310955"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none"
+         id="tspan96">E6</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle96"
+       cx="279.48734"
+       cy="197.65332"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="279.08737"
+       y="204.69333"
+       id="text97"><tspan
+         sodipodi:role="line"
+         id="tspan97"
+         x="279.08737"
+         y="204.69333"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D5</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle97"
+       cx="126.8227"
+       cy="47.180962"
+       r="24.527559" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle98"
+       cx="202.70865"
+       cy="47.180962"
+       r="25" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle99"
+       cx="279.48734"
+       cy="47.180962"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle100"
+       cx="202.70865"
+       cy="122.18084"
+       r="24.527559" />
+    <circle
+       style="fill:#bf28c2;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle101"
+       cx="279.48734"
+       cy="122.18084"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.29865"
+       y="129.32085"
+       id="text101"><tspan
+         sodipodi:role="line"
+         id="tspan101"
+         x="202.29865"
+         y="129.32085"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="126.42271"
+       y="54.220966"
+       id="text102"><tspan
+         sodipodi:role="line"
+         id="tspan102"
+         x="126.42271"
+         y="54.220966"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="279.66733"
+       y="129.35085"
+       id="text103"><tspan
+         sodipodi:role="line"
+         id="tspan103"
+         x="279.66733"
+         y="129.35085"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">A6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="202.30865"
+       y="54.220966"
+       id="text104"><tspan
+         sodipodi:role="line"
+         id="tspan104"
+         x="202.30865"
+         y="54.220966"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">D#7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="279.05734"
+       y="54.220966"
+       id="text105"><tspan
+         sodipodi:role="line"
+         x="279.05734"
+         y="54.220966"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none"
+         id="tspan105">E7</tspan></text>
+    <circle
+       style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle107"
+       cx="279.48734"
+       cy="197.65332"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="279.08737"
+       y="204.81332"
+       id="text112"><tspan
+         sodipodi:role="line"
+         id="tspan112"
+         x="279.08737"
+         y="204.81332"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">D6</tspan></text>
+    <circle
+       style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle115"
+       cx="351.82138"
+       cy="47.180962"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle116"
+       cx="426.82132"
+       cy="47.180962"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="351.47037"
+       y="55.728264"
+       id="text119"><tspan
+         sodipodi:role="line"
+         id="tspan119"
+         x="351.47037"
+         y="55.728264"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">F7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="426.17331"
+       y="53.624931"
+       id="text121"><tspan
+         sodipodi:role="line"
+         x="426.17331"
+         y="53.624931"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none"
+         id="tspan120">D#2</tspan></text>
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle121"
+       cx="502.29404"
+       cy="47.180962"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="501.63602"
+       y="57.677391"
+       id="text122"><tspan
+         sodipodi:role="line"
+         id="tspan121"
+         x="501.63602"
+         y="57.677391"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G7</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle122"
+       cx="352.11719"
+       cy="122.17992"
+       r="25" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle123"
+       cx="502.70767"
+       cy="122.17992"
+       r="25" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle124"
+       cx="577.7077"
+       cy="122.17992"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="351.69418"
+       y="128.60591"
+       id="text124"><tspan
+         sodipodi:role="line"
+         id="tspan124"
+         x="351.69418"
+         y="128.60591"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">F#1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.59064"
+       y="128.60591"
+       id="text125"><tspan
+         sodipodi:role="line"
+         id="tspan125"
+         x="502.59064"
+         y="128.60591"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.12164"
+       y="128.60591"
+       id="text126"><tspan
+         sodipodi:role="line"
+         id="tspan126"
+         x="578.12164"
+         y="128.60591"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#7</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle126"
+       cx="503.00027"
+       cy="198.36208"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.64926"
+       y="206.90938"
+       id="text127"><tspan
+         sodipodi:role="line"
+         id="tspan127"
+         x="502.64926"
+         y="206.90938"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">C#1</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle127"
+       cx="426.82132"
+       cy="47.180962"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="426.17331"
+       y="53.624931"
+       id="text128"><tspan
+         sodipodi:role="line"
+         x="426.17331"
+         y="53.624931"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none"
+         id="tspan128">F#7</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle128"
+       cx="352.70679"
+       cy="121.70876"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="352.04877"
+       y="131.70476"
+       id="text129"><tspan
+         sodipodi:role="line"
+         id="tspan129"
+         x="352.04877"
+         y="131.70476"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">A#6</tspan></text>
+    <circle
+       style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle132"
+       cx="503.59259"
+       cy="197.89088"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="502.97656"
+       y="207.88692"
+       id="text135"><tspan
+         sodipodi:role="line"
+         id="tspan135"
+         x="502.97656"
+         y="207.88692"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">F7</tspan></text>
+    <circle
+       style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle135"
+       cx="427.70773"
+       cy="122.18121"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="427.28476"
+       y="128.60719"
+       id="text136"><tspan
+         sodipodi:role="line"
+         id="tspan136"
+         x="427.28476"
+         y="128.60719"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">B6</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle138"
+       cx="578.59351"
+       cy="198.36336"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="578.24249"
+       y="206.91066"
+       id="text140"><tspan
+         sodipodi:role="line"
+         id="tspan140"
+         x="578.24249"
+         y="206.91066"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">F#7</tspan></text>
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle140"
+       cx="428.59164"
+       cy="197.89088"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="429.23563"
+       y="207.88692"
+       id="text141"><tspan
+         sodipodi:role="line"
+         id="tspan141"
+         x="429.23563"
+         y="207.88692"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#000000;fill-opacity:1;stroke:none">E7</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle141"
+       cx="353.59109"
+       cy="197.89088"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="353.40909"
+       y="207.88692"
+       id="text142"><tspan
+         sodipodi:role="line"
+         id="tspan142"
+         x="353.40909"
+         y="207.88692"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">D#7</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle142"
+       cx="577.7077"
+       cy="47.180962"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="577.61774"
+       y="54.320976"
+       id="text143"><tspan
+         sodipodi:role="line"
+         id="tspan143"
+         x="577.61774"
+         y="54.320976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#5</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle143"
+       cx="577.7077"
+       cy="47.180962"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20px;line-height:0.9;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944882;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="577.61774"
+       y="54.320976"
+       id="text144"><tspan
+         sodipodi:role="line"
+         id="tspan144"
+         x="577.61774"
+         y="54.320976"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke:none">G#7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="translate(14.765614,11.924411)"
+       id="text145"
+       style="fill:#ffffff;-inkscape-font-specification:'Noto Sans Bold';font-family:'Noto Sans';font-size:28px;text-orientation:auto;stroke-linecap:round;stroke-width:1.88976378;stroke-linejoin:round;line-height:0.9;text-align:center;font-weight:bold;stroke-dasharray:1.88976383, 11.33858299;stroke:#0012ff;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect145)" />
+  </g>
+</svg>

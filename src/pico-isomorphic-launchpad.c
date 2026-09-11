@@ -45,6 +45,9 @@
 
 #include "launchpad.h"
 
+// Chosen to align the most modes decently, especially "piano" mode
+#define DEFAULT_OFFSET 47
+
 static struct board_state board_state = {
       // Fairly sure this is implied.
       // .held_note_velocities = { 0 },
@@ -59,11 +62,11 @@ static struct board_state board_state = {
       .is_dirty = true,
       
       .client = {      
-        .offset_by_cable = { 45, 45, 45 }
+        .offset_by_cable = { DEFAULT_OFFSET, DEFAULT_OFFSET, DEFAULT_OFFSET }
       },
 
       .host = {
-        .offset = 45,
+        .offset = DEFAULT_OFFSET,
         .global_midi_channel = 0,
         .launchpad_version = MK3
       }

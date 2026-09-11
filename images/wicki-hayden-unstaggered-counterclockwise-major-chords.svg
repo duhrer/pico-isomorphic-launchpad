@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="wicki-hayden-unstaggered-counterclockwise-major-chords.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="177.4838"
+     inkscape:cy="359.91734"
+     inkscape:window-width="1704"
+     inkscape:window-height="1344"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="-89.802559"
+       y="139.30003"
+       width="327.39044"
+       height="86.267029"
+       id="rect120" />
+    <rect
+       x="72.832001"
+       y="-43.133514"
+       width="170.41273"
+       height="116.67262"
+       id="rect10" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.765614,-11.924411)">
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle27"
+       cx="563.52344"
+       cy="487.01456"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="font-weight:600;font-size:48px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect10);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       id="text120"
+       style="font-weight:600;font-size:48px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect120);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.94488;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle26"
+       cx="641.29932"
+       cy="487.01456"
+       r="25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle33"
+       cx="716.59412"
+       cy="486.54388"
+       r="24.527559" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle34"
+       cx="562.7569"
+       cy="562.01404"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle35"
+       cx="641.29932"
+       cy="561.54102"
+       r="24.527559" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle36"
+       cx="716.29932"
+       cy="561.54102"
+       r="24.527559" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle115"
+       cx="81.994156"
+       cy="476.67966"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle127"
+       cx="160.53661"
+       cy="476.20667"
+       r="24.527559" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle128"
+       cx="235.53658"
+       cy="476.20667"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle132"
+       cx="81.994156"
+       cy="552.39056"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle133"
+       cx="235.24178"
+       cy="552.39056"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle157"
+       cx="356.383"
+       cy="172.61691"
+       r="24.527559" />
+    <circle
+       style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle158"
+       cx="431.38297"
+       cy="172.61691"
+       r="24.527559" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:48px;line-height:0.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round"
+       x="412.76562"
+       y="75.924408"
+       id="text170"><tspan
+         sodipodi:role="line"
+         x="412.76562"
+         y="75.924408"
+         style="fill:#000000;fill-opacity:1"
+         id="tspan11">Major Chord Shapes</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.88976, 11.3386;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 33.098031,393.59014 H 801.74421"
+       id="path1" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.88976, 11.3386;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 410.40221,406.51922 V 609.81547"
+       id="path2" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle8"
+       cx="356.383"
+       cy="249.27203"
+       r="24.527559" />
+    <circle
+       style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle9"
+       cx="359.63"
+       cy="324.98117"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle10"
+       cx="434.92542"
+       cy="248.79904"
+       r="24.527559" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.944883;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle11"
+       cx="434.63062"
+       cy="324.98297"
+       r="24.527559" />
+  </g>
+</svg>

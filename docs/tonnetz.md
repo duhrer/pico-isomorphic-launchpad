@@ -1,57 +1,53 @@
 # Tonnetz Note Layout
 
 [Tonnetz layout](https://en.wikipedia.org/wiki/Tonnetz) was developed to help
-understand musical relationships (such as forming chords). Here is an
-arrangement of notes in Tonnetz layout covering several octaves in a "staggered"
-layout:
+understand musical relationships (such as forming chords).
+
+The original Tonnetz layout is arranged in "staggered" fashion, where each row
+of notes is offset by half to form a hexagonal grid:
 
 ![Tonnetz octave](/images/tonnetz-staggered-octaves.svg)
 
-In an isomorphic layout, the relationship of each note to its neighbours is
-always consistent. In Tonnetz Layout, octaves are always three rows apart on one
-of the diagonals (let's call it ten o'clock and four o'clock). 
+To arrange this "staggered" layout grid, we have two strategies.  We can either
+"skew" the rows in one direction or the other, or we can rotate the layout so
+that the original rows are arranged along the diagonals of the launchpad.
 
-Each move left or right is a perfect fifth (seven semitones apart). Other key
-relationships like single semitones and perfect fourths are not immediately
-adjacent to the "root" note.
+## Skewed Clockwise
 
-## Mapping to Grid Layout
+In this arrangement, we skew the staggered layout clockwise, which results in
+the following layout:
 
-To make this usable on a grid controller, we "unstagger" the rows by shifting
-each row half a square.  This results in a layout like:
-
-![Default tuning, with triangles](/images/tonnetz-unstaggered-triangles.svg)
+!["Unstaggered" Clockwise Layout](/images/tonnetz-unstaggered-clockwise.svg)
 
 In this layout, octaves are always three rows above or below the current note.
 As with the original layout, each pad is a perfect fifth (seven semi-tones) away
-from its left and right neighbours. This "unstaggered" arrangement arranges
-things so that we can move a single semitone by traveling along the
-northwest/southeast diagonal.
+from its left and right neighbours. We can move a single semitone by traveling
+along the northwest/southeast diagonal.
 
-## Making Chords
+## Skewed Counterclockwise
 
-To help in describing simple chords, let's start by representing a full grid of
-notes in terms of their relative MIDI note numbers:
+In this arrangement, the staggered layout is skewed counterclockwise, which
+results in the following layout:
 
-![MIDI Note Numbers, Tonnetz "Unstaggered" Layout](/images/tonnetz-unstaggered-midi-note-number.svg)
+!["Unstaggered" Counterclockwise Layout](/images/tonnetz-unstaggered-counterclockwise.svg)
+ 
+ Octaves are still three rows apart. Each pad is still a perfect fifth (seven
+ semitones) from its left and right neighbours. Semitones are not directly
+ adjacent to each other.
 
-For a major chord, we want a root (zero) note, four semitones higher, and then
-seven semitones higher. In this layout the shape is an arrow pointing up and
-left, as in:
+## Chords
 
-!["Unstaggered" Tonnetz Major Chord](/images/tonnetz-unstaggered-layout-major-chord.svg)
+### Unstaggered Clockwise
 
-This shape can be used to play a major chord starting with any root note. For a
-minor chord, we want a root (zero) note, three semitones higher, and then seven
-semitones higher.  In this layout, that makes an arrow that points down and to
-the right, as in:
+!["Unstaggered" Clockwise Chords](../images/tonnetz-unstaggered-clockwise-chords.svg)
 
-!["Unstaggered" Tonnetz Minor Chord](/images/tonnetz-unstaggered-layout-minor-chord.svg)
+### Unstaggered Counterclockwise
 
-To extend this example a little, if we start with our major chord and extend it
-to includes the note eleven semitones higher, we have the pattern for [a major
-7th chord](https://en.wikipedia.org/wiki/Major_seventh_chord):
+!["Unstaggered" Counterclockwise Chords](../images/tonnetz-unstaggered-counterclockwise-chords.svg)
 
-!["Unstaggered" Tonnetz Major7 Chord](/images/tonnetz-unstaggered-layout-major7-chord.svg)
+### Staggered and Rotated
 
-The same pattern will play a major 7th chord anywhere in our range.
+!["Staggered" and Rotated Chords](../images/tonnetz-staggered-rotated-chords.svg)
+
+For information on making chords in all layouts, check out the [chords
+page](./chords.md).

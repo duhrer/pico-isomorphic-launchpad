@@ -177,20 +177,48 @@ something. Any notes played will be translated from the layout of the Launchpad
 to the selected note layout, and the pads on the launchpad will be lit up to
 indicate the layout as well as which notes are held.
 
-### Selecting the Note Layout and Colour Scheme
+### Selecting the Note Layout
 
-The bottom row of controls controls which "note layout" and colour scheme is
-used.  From left to right:
+The bottom row of circular pads controls which "note layout" and colour scheme
+is used.  From left to right:
 
-1. Wicki-Hayden, "rainbow" colour scheme (the default)
-2. Wicki-Hayden, "red Cs" colour scheme
-3. Tonnetz, "rainbow" colour scheme
-4. Tonnetz, "red Cs" colour scheme
+1. Wicki-Hayden, "Unstaggered" clockwise (default)
+2. Wicki-Hayden, "Unstaggered" counterclockwise
+3. Tonnetz, "Unstaggered" clockwise
+4. Tonnetz, "Unstaggered" counterclockwise
+5. Tonnetz, "Staggered" layout, rotated
+6. Janko, "Unstaggered" clockwise
+7. Janko, "Unstaggered" counterclockwise
+8. Piano Layout
 
-See the docs on [Wicki-Hayden](./docs/wicki-hayden.md) and
-[Tonnetz](./docs/tonnetz.md) for more details one how notes are arranged. See
-the docs on [colours](./docs/colours.md) for more information on the supported
-colour schemes.
+For more details, see the docs on [Wicki-Hayden](./docs/wicki-hayden.md) and
+[Tonnetz](./docs/tonnetz.md) layouts.
+
+### Selecting the Colour Scheme
+
+The right row of circular pads controls which "note layout" and colour scheme is
+used.  From top to bottom:
+
+1. *Currently unused*
+2. *Currently unused*
+3. *Currently unused*
+4. *Currently unused*
+5. *Currently unused*
+6. *Currently unused*
+7. "Rainbow" colour scheme
+8. "Red Cs" colour scheme
+
+#### Rainbow
+
+In this colour scheme, each of the seven "naturals" has its own colour. All
+sharps and flats are black (unlit). Any pad that's held down will be more
+strongly coloured.
+
+#### Red Cs
+
+In this colour scheme, all C notes are highlighted in red. The rest of the
+"naturals" are highlighted in white. All sharps and flats are black (unlit). Any
+pad that's held down will be highlighted in blue.
 
 ### Adjusting the Note Range
 

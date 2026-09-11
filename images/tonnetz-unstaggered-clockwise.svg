@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="225mm"
+   height="225mm"
+   viewBox="0 0 850.39371 850.39369"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="tonnetz-unstaggered-clockwise.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.99241021"
+     inkscape:cx="352.67674"
+     inkscape:cy="424.21974"
+     inkscape:window-width="1704"
+     inkscape:window-height="1344"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-124.3768,-344.96852)">
+    <g
+       id="g64"
+       transform="translate(54.370578,55.315457)">
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path1"
+         cx="352.52594"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="352.19781"
+         y="496.76709"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           x="352.19781"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle2"
+         cx="541.50232"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="541.17419"
+         y="496.76709"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           x="541.17419"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
+      <circle
+         style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle3"
+         cx="354.41574"
+         cy="573.11761"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="354.08762"
+         y="591.25525"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           x="354.08762"
+           y="591.25525"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle4"
+         cx="258.03775"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="257.70963"
+         y="496.76709"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           x="257.70963"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle5"
+         cx="447.01413"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="446.686"
+         y="496.76709"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           x="446.686"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <circle
+         style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle6"
+         cx="259.92755"
+         cy="573.11761"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="259.59943"
+         y="591.25525"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           x="259.59943"
+           y="591.25525"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">A</tspan></text>
+      <circle
+         style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle7"
+         cx="448.9039"
+         cy="573.11761"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="448.57578"
+         y="591.25525"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           x="448.57578"
+           y="591.25525"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">B</tspan></text>
+      <g
+         id="g9"
+         transform="translate(-18.897627,-48.439243)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle10"
+           cx="276.93536"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="276.60727"
+           y="734.18274"
+           id="text11"><tspan
+             sodipodi:role="line"
+             id="tspan11"
+             x="276.60727"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">C♯</tspan></text>
+      </g>
+      <g
+         id="g11"
+         transform="translate(-56.692935,-48.439243)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle11"
+           cx="503.70703"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="503.37891"
+           y="734.18274"
+           id="text12"><tspan
+             sodipodi:role="line"
+             id="tspan12"
+             x="503.37891"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">D♯</tspan></text>
+      </g>
+      <g
+         id="g13"
+         transform="translate(-75.590586,-31.835234)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle12"
+           cx="618.98267"
+           cy="604.95288"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="618.65454"
+           y="623.09052"
+           id="text13"><tspan
+             sodipodi:role="line"
+             id="tspan13"
+             x="618.65454"
+             y="623.09052"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">F♯</tspan></text>
+      </g>
+      <g
+         id="g10"
+         transform="translate(-37.795282,-48.439243)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle13"
+           cx="390.32123"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="389.9931"
+           y="734.18274"
+           id="text14"><tspan
+             sodipodi:role="line"
+             id="tspan14"
+             x="389.9931"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">G♯</tspan></text>
+      </g>
+      <g
+         id="g12"
+         transform="translate(-75.590586,-48.439243)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle14"
+           cx="617.0929"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="616.76477"
+           y="734.18274"
+           id="text15"><tspan
+             sodipodi:role="line"
+             id="tspan15"
+             x="616.76477"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">A♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle2-6"
+         cx="163.54955"
+         cy="573.11761"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="163.22142"
+         y="591.25525"
+         id="text3-1"><tspan
+           sodipodi:role="line"
+           id="tspan3-0"
+           x="163.22142"
+           y="591.25525"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
+      <g
+         id="g7"
+         transform="translate(0,-48.439243)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle12-9"
+           cx="161.65977"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="734.18274"
+           id="text13-3"><tspan
+             sodipodi:role="line"
+             id="tspan13-9"
+             x="161.33165"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">F♯</tspan></text>
+      </g>
+      <g
+         id="g6"
+         transform="translate(0,-15.231254)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle14-9"
+           cx="161.65977"
+           cy="493.86069"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="511.99832"
+           id="text15-6"><tspan
+             sodipodi:role="line"
+             id="tspan15-3"
+             x="161.33165"
+             y="511.99832"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">B♭</tspan></text>
+      </g>
+      <g
+         id="g14"
+         transform="translate(-94.488205,-31.835234)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle31"
+           cx="732.36853"
+           cy="604.95288"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="732.04041"
+           y="623.09052"
+           id="text31"><tspan
+             sodipodi:role="line"
+             id="tspan31"
+             x="732.04041"
+             y="623.09052"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">C♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle32"
+         cx="352.52597"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="352.19785"
+         y="778.61743"
+         id="text32"><tspan
+           sodipodi:role="line"
+           id="tspan32"
+           x="352.19785"
+           y="778.61743"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle33"
+         cx="541.50232"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="541.17419"
+         y="778.60571"
+         id="text33"><tspan
+           sodipodi:role="line"
+           id="tspan33"
+           x="541.17419"
+           y="778.60571"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle34"
+         cx="258.03778"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="257.70966"
+         y="778.60571"
+         id="text34"><tspan
+           sodipodi:role="line"
+           id="tspan34"
+           x="257.70966"
+           y="778.60571"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle35"
+         cx="447.01413"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="446.686"
+         y="778.61743"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan35"
+           x="446.686"
+           y="778.61743"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <g
+         id="g4"
+         transform="translate(-56.692935)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle37"
+           cx="503.70703"
+           cy="382.25208"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="503.37891"
+           y="400.38971"
+           id="text37"><tspan
+             sodipodi:role="line"
+             id="tspan37"
+             x="503.37891"
+             y="400.38971"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">E♭</tspan></text>
+      </g>
+      <g
+         id="g3"
+         transform="translate(-37.795282)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle38"
+           cx="390.3212"
+           cy="382.25208"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="389.99307"
+           y="400.38971"
+           id="text38"><tspan
+             sodipodi:role="line"
+             id="tspan38"
+             x="389.99307"
+             y="400.38971"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">A♭</tspan></text>
+      </g>
+      <g
+         id="g2"
+         transform="translate(-18.897627)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle36"
+           cx="276.93536"
+           cy="382.25208"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="276.60727"
+           y="400.38971"
+           id="text36"><tspan
+             sodipodi:role="line"
+             id="tspan36"
+             x="276.60727"
+             y="400.38971"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">D♭</tspan></text>
+      </g>
+      <g
+         id="g1"
+         transform="translate(0,-0.51694219)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle42"
+           cx="161.65977"
+           cy="382.76843"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="400.90607"
+           id="text42"><tspan
+             sodipodi:role="line"
+             id="tspan42"
+             x="161.33165"
+             y="400.90607"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">G♭</tspan></text>
+      </g>
+      <g
+         id="g8"
+         transform="translate(0,-65.04328)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle43"
+           cx="161.65977"
+           cy="827.13733"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="841.83264"
+           id="text43"><tspan
+             sodipodi:role="line"
+             id="tspan43"
+             x="161.33165"
+             y="841.83264"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">A♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle29"
+         cx="635.99054"
+         cy="667.60583"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66241"
+         y="685.74347"
+         id="text29"><tspan
+           sodipodi:role="line"
+           id="tspan29"
+           x="635.66241"
+           y="685.74347"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle44"
+         cx="635.99048"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66235"
+         y="778.60571"
+         id="text44"><tspan
+           sodipodi:role="line"
+           id="tspan44"
+           x="635.66235"
+           y="778.60571"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">A</tspan></text>
+      <circle
+         style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle30"
+         cx="635.99054"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66241"
+         y="496.76709"
+         id="text30"><tspan
+           sodipodi:role="line"
+           id="tspan30"
+           x="635.66241"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">A</tspan></text>
+      <g
+         id="g5"
+         transform="translate(-75.590586)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle39"
+           cx="617.0929"
+           cy="382.25208"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="616.76477"
+           y="400.38971"
+           id="text39"><tspan
+             sodipodi:role="line"
+             id="tspan39"
+             x="616.76477"
+             y="400.38971"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">B♭</tspan></text>
+      </g>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle45"
+         cx="635.99054"
+         cy="384.14127"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66241"
+         y="402.2789"
+         id="text45"><tspan
+           sodipodi:role="line"
+           id="tspan45"
+           x="635.66241"
+           y="402.2789"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle15"
+         cx="730.4787"
+         cy="384.14127"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="730.15057"
+         y="402.2789"
+         id="text16"><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           x="730.15057"
+           y="402.2789"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle16"
+         cx="824.96686"
+         cy="384.14127"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="824.63873"
+         y="402.2789"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           x="824.63873"
+           y="402.2789"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <circle
+         style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle17"
+         cx="732.36847"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="732.04034"
+         y="496.76709"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="732.04034"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+      <circle
+         style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle18"
+         cx="826.85663"
+         cy="478.62946"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="826.5285"
+         y="496.76709"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           x="826.5285"
+           y="496.76709"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">B</tspan></text>
+      <g
+         id="g20"
+         transform="translate(321.25981,-142.92747)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle19"
+           cx="503.70703"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="503.37891"
+           y="734.18274"
+           id="text20"><tspan
+             sodipodi:role="line"
+             id="tspan20"
+             x="503.37891"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">D♯</tspan></text>
+      </g>
+      <g
+         id="g21"
+         transform="translate(340.15747,-142.92747)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle20"
+           cx="390.32123"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="389.9931"
+           y="734.18274"
+           id="text21"><tspan
+             sodipodi:role="line"
+             id="tspan21"
+             x="389.9931"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">G♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle21"
+         cx="730.4787"
+         cy="667.60583"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="730.15057"
+         y="684.12927"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           x="730.15057"
+           y="684.12927"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle22"
+         cx="824.96686"
+         cy="667.60583"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="824.63873"
+         y="684.12927"
+         id="text23"><tspan
+           sodipodi:role="line"
+           id="tspan23"
+           x="824.63873"
+           y="684.12927"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <circle
+         style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle23"
+         cx="732.36847"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="732.04034"
+         y="780.23163"
+         id="text24"><tspan
+           sodipodi:role="line"
+           id="tspan24"
+           x="732.04034"
+           y="780.23163"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+      <circle
+         style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle24"
+         cx="826.85663"
+         cy="762.09399"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="826.5285"
+         y="780.23163"
+         id="text25"><tspan
+           sodipodi:role="line"
+           id="tspan25"
+           x="826.5285"
+           y="780.23163"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">B</tspan></text>
+      <circle
+         style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle25"
+         cx="354.41574"
+         cy="856.58221"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="354.08762"
+         y="874.71985"
+         id="text26"><tspan
+           sodipodi:role="line"
+           id="tspan26"
+           x="354.08762"
+           y="874.71985"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+      <circle
+         style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle26"
+         cx="259.92755"
+         cy="856.58221"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="259.59943"
+         y="874.71985"
+         id="text27"><tspan
+           sodipodi:role="line"
+           id="tspan27"
+           x="259.59943"
+           y="874.71985"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">A</tspan></text>
+      <circle
+         style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle27"
+         cx="448.9039"
+         cy="856.58221"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="448.57578"
+         y="874.71985"
+         id="text28"><tspan
+           sodipodi:role="line"
+           id="tspan28"
+           x="448.57578"
+           y="874.71985"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">B</tspan></text>
+      <g
+         id="g40"
+         transform="translate(-18.897627,235.02536)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle28"
+           cx="276.93536"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="276.60727"
+           y="734.18274"
+           id="text40"><tspan
+             sodipodi:role="line"
+             id="tspan40"
+             x="276.60727"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">C♯</tspan></text>
+      </g>
+      <g
+         id="g41"
+         transform="translate(-56.692935,235.02536)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle40"
+           cx="503.70703"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="503.37891"
+           y="734.18274"
+           id="text41"><tspan
+             sodipodi:role="line"
+             id="tspan41"
+             x="503.37891"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">D♯</tspan></text>
+      </g>
+      <g
+         id="g46"
+         transform="translate(-75.590586,251.62936)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle41"
+           cx="618.98267"
+           cy="604.95288"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="618.65454"
+           y="623.09052"
+           id="text46"><tspan
+             sodipodi:role="line"
+             id="tspan46"
+             x="618.65454"
+             y="623.09052"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">F♯</tspan></text>
+      </g>
+      <g
+         id="g47"
+         transform="translate(-37.795282,235.02536)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle46"
+           cx="390.32123"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="389.9931"
+           y="734.18274"
+           id="text47"><tspan
+             sodipodi:role="line"
+             id="tspan47"
+             x="389.9931"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">G♯</tspan></text>
+      </g>
+      <g
+         id="g48"
+         transform="translate(-75.590586,235.02536)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle47"
+           cx="617.0929"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="616.76477"
+           y="734.18274"
+           id="text48"><tspan
+             sodipodi:role="line"
+             id="tspan48"
+             x="616.76477"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">A♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle48"
+         cx="163.54955"
+         cy="856.58221"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="163.22142"
+         y="874.71985"
+         id="text49"><tspan
+           sodipodi:role="line"
+           id="tspan49"
+           x="163.22142"
+           y="874.71985"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
+      <g
+         id="g50"
+         transform="translate(0,235.02536)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle49"
+           cx="161.65977"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="734.18274"
+           id="text50"><tspan
+             sodipodi:role="line"
+             id="tspan50"
+             x="161.33165"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">F♯</tspan></text>
+      </g>
+      <g
+         id="g51"
+         transform="translate(-94.488205,251.62936)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle50"
+           cx="732.36853"
+           cy="604.95288"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="732.04041"
+           y="623.09052"
+           id="text51"><tspan
+             sodipodi:role="line"
+             id="tspan51"
+             x="732.04041"
+             y="623.09052"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">C♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle51"
+         cx="352.52597"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="352.19785"
+         y="1062.082"
+         id="text52"><tspan
+           sodipodi:role="line"
+           id="tspan52"
+           x="352.19785"
+           y="1062.082"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#ff8732;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle52"
+         cx="541.50232"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="541.17419"
+         y="1062.0703"
+         id="text53"><tspan
+           sodipodi:role="line"
+           id="tspan53"
+           x="541.17419"
+           y="1062.0703"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle53"
+         cx="258.03778"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="257.70966"
+         y="1062.0703"
+         id="text54"><tspan
+           sodipodi:role="line"
+           id="tspan54"
+           x="257.70966"
+           y="1062.0703"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle54"
+         cx="447.01413"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="446.686"
+         y="1062.082"
+         id="text55"><tspan
+           sodipodi:role="line"
+           id="tspan55"
+           x="446.686"
+           y="1062.082"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <g
+         id="g56"
+         transform="translate(0,218.42132)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle55"
+           cx="161.65977"
+           cy="827.13733"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="161.33165"
+           y="841.83264"
+           id="text56"><tspan
+             sodipodi:role="line"
+             id="tspan56"
+             x="161.33165"
+             y="841.83264"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">A♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#61db2d;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle56"
+         cx="635.99054"
+         cy="951.07043"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66241"
+         y="969.20807"
+         id="text57"><tspan
+           sodipodi:role="line"
+           id="tspan57"
+           x="635.66241"
+           y="969.20807"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">F</tspan></text>
+      <circle
+         style="fill:#bf28c2;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle57"
+         cx="635.99048"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="635.66235"
+         y="1062.0703"
+         id="text58"><tspan
+           sodipodi:role="line"
+           id="tspan58"
+           x="635.66235"
+           y="1062.0703"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">A</tspan></text>
+      <g
+         id="g59"
+         transform="translate(321.25981,140.53713)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle58"
+           cx="503.70703"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="503.37891"
+           y="734.18274"
+           id="text59"><tspan
+             sodipodi:role="line"
+             id="tspan59"
+             x="503.37891"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">D♯</tspan></text>
+      </g>
+      <g
+         id="g60"
+         transform="translate(340.15747,140.53713)">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="circle59"
+           cx="390.32123"
+           cy="716.0451"
+           r="37.28297" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="389.9931"
+           y="734.18274"
+           id="text60"><tspan
+             sodipodi:role="line"
+             id="tspan60"
+             x="389.9931"
+             y="734.18274"
+             style="font-size:48px;fill:#ffffff;fill-opacity:1">G♯</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff3232;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle60"
+         cx="730.4787"
+         cy="951.07043"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="730.15057"
+         y="967.59387"
+         id="text61"><tspan
+           sodipodi:role="line"
+           id="tspan61"
+           x="730.15057"
+           y="967.59387"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+      <circle
+         style="fill:#0012ff;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle61"
+         cx="824.96686"
+         cy="951.07043"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="824.63873"
+         y="967.59387"
+         id="text62"><tspan
+           sodipodi:role="line"
+           id="tspan62"
+           x="824.63873"
+           y="967.59387"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">G</tspan></text>
+      <circle
+         style="fill:#ffee32;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle62"
+         cx="732.36847"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="732.04034"
+         y="1063.6962"
+         id="text63"><tspan
+           sodipodi:role="line"
+           id="tspan63"
+           x="732.04034"
+           y="1063.6962"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">E</tspan></text>
+      <circle
+         style="fill:#ffa5a5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="circle63"
+         cx="826.85663"
+         cy="1045.5586"
+         r="37.28297" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:0.6;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="826.5285"
+         y="1063.6962"
+         id="text64"><tspan
+           sodipodi:role="line"
+           id="tspan64"
+           x="826.5285"
+           y="1063.6962"
+           style="font-size:48px;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1">B</tspan></text>
+    </g>
+  </g>
+</svg>

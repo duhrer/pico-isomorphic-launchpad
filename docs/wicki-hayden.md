@@ -4,73 +4,64 @@
 layout](https://en.wikipedia.org/wiki/Wicki%E2%80%93Hayden_note_layout) is an
 isomorphic arrangement of keys used for various accordion-like instruments.  
 
-Here is the "staggered" layout typically used in other instruments (I've
-represented the C notes in red, naturals in white, and sharps/flats in black):
+Here is the "staggered" Wicki-Hayden layout typically used in other instruments:
 
-![Several Octaves in the Wicki-Hayden Layout](/images/wicki-hayden-staggered-layout.svg)
+![Several Octaves in the Wicki-Hayden Layout](/images/wicki-hayden-staggered.svg)
 
 In an isomorphic layout, the relationship of each note to its neighbours is
 always consistent. In Wicki-Hayden layout, octaves are always two rows above or
-below the current note:
+below the current note. Each move left or right is a whole step.
 
-!["Staggered" Octaves](/images/wicki-hayden-staggered-layout-octaves.svg)
+To arrange this "staggered" layout on a grid, we have two strategies.  We can
+either rotate the layout so that the original rows are arranged along the
+diagonals of the launchpad, or "skew" the rows in one direction or the other.
 
-Each move left or right is a whole step:
+As the grid controller is not an actual hex grid, rotating the staggered layout
+collapses the distance between every two rows in the staggered layout, which
+results in stripes of the same note (in different octaves), and is less useful
+as a playing surface.
 
-!["Staggered" Whole Steps](/images/wicki-hayden-staggered-layout-whole-steps.svg)
+Instead, we focus on skewing the staggered layout a half pad clockwise and
+counterclockwise.
 
-Perfect fourths (five semitones apart) are arranged on one of the diagonals:
+## Skewed Clockwise
 
-!["Staggered" Perfect Fourths](/images/wicki-hayden-staggered-layout-fourths.svg)
+In this arrangement, we skew the staggered layout clockwise, which results in
+the following layout:
 
-Perfect fifths (seven semitones apart) are arranged on the other diagonal:
-
-!["Staggered" Perfect Fifths](/images/wicki-hayden-staggered-layout-fifths.svg)
-
-## Mapping to Grid Layout
-
-To make this usable on a grid controller, we "unstagger" the rows by shifting
-each row half a square.  This results in a layout like:
-
-!["Unstaggered" Layout](/images/wicki-hayden-unstaggered-layout.svg)
+!["Unstaggered" Layout](/images/wicki-hayden-unstaggered-clockwise.svg)
 
 This "unstaggered" layout preserves the rough grouping of naturals and
-sharps/flats, and the relationships are very similar:
+sharps/flats, and the relationships are very similar. Each move left or right is
+still a whole step.
 
-!["Unstaggered" Octaves](/images/wicki-hayden-unstaggered-layout-octaves.svg)
+## Skewed Counterclockwise
 
-Each move left or right is still a whole step:
+In this arrangement, we skew the staggered layout counterclockwise, which
+results in the following layout:
 
-!["Unstaggered" Whole Steps](/images/wicki-hayden-unstaggered-layout-whole-steps.svg)
+!["Unstaggered" Counterclockwise Layout](/images/wicki-hayden-unstaggered-counterclockwise.svg)
 
-!["Unstaggered" Perfect Fourths](/images/wicki-hayden-unstaggered-layout-fourths.svg)
+This is a kind of mirror image of the "counterclockwise" layout, with very
+similar patterns.  Each move left or right is still a whole step.
 
-!["Unstaggered" Perfect Fifths](/images/wicki-hayden-unstaggered-layout-fifths.svg)
+## Chords
 
-## Making Chords
+### Unstaggered Clockwise
 
-To help in describing simple chords, let's start by representing a full grid of
-notes in terms of their relative MIDI note numbers:
+!["Unstaggered" Clockwise Major Chords](../images/wicki-hayden-unstaggered-clockwise-major-chords.svg)
 
-![MIDI Note Numbers, "Unstaggered" Wicki-Hayden
-Layout](/images/wicki-hayden-unstaggered-numbers.svg)
+!["Unstaggered" Clockwise Major7 Chords](../images/wicki-hayden-unstaggered-clockwise-major7-chords.svg)
 
-For a major chord, we want a root (zero) note, four semitones higher, and then
-seven semitones higher. In this layout the shape is an arrow pointing upwards,
-as in:
+!["Unstaggered" Clockwise Minor Chords](../images/wicki-hayden-unstaggered-clockwise-minor-chords.svg)
 
-!["Unstaggered" Wicki-Hayden Major Chord](/images/wicki-hayden-unstaggered-layout-major-chord.svg)
+### Unstaggered Counterclockwise
 
-This shape can be used to play a major chord starting with any root note. For a
-minor chord, we want a root (zero) note, three semitones higher, and then seven
-semitones higher.  In this layout, that makes an arrow that points down, as in:
+!["Unstaggered" Counterclockwise Major Chords](../images/wicki-hayden-unstaggered-counterclockwise-major-chords.svg)
 
-!["Unstaggered" Wicki-Hayden Minor Chord](/images/wicki-hayden-unstaggered-layout-minor-chord.svg)
+!["Unstaggered" Counterclockwise Major7 Chords](../images/wicki-hayden-unstaggered-counterclockwise-major7-chords.svg)
 
-To extend this example a little, if we start with our major chord and extend it
-to includes the note eleven semitones higher, we have the pattern for [a major
-7th chord](https://en.wikipedia.org/wiki/Major_seventh_chord):
+!["Unstaggered" Counterclockwise Minor Chords](../images/wicki-hayden-unstaggered-counterclockwise-minor-chords.svg)
 
-!["Unstaggered" Wicki-Hayden Major7 Chord](/images/wicki-hayden-unstaggered-layout-major7-chord.svg)
 
-The same pattern will play a major 7th chord anywhere in our range.
+For information, check out the [chords page](./chords.md).
