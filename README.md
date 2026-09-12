@@ -14,11 +14,22 @@ same, but shifted by a whole number of rows and columns.
 There are a few MIDI controllers that support an isomorphic layout, but the
 commercial ones tend to be eye-wateringly expensive. A few years ago, I read
 about Tonnetz layout and realised I could "squash" the layout to fit a grid
-controller. I created an initial (web-based) version, and much later made a
-Tonnetz layout for a microcontroller with a second USB port.
+controller. I created an initial (web-based) version, and much later made [a
+Tonnetz layout for a microcontroller with a second USB
+port](https://github.com/duhrer/pico-launchpad-tonnetz).
 
 Recently, someone got in touch and inspired me to expand my earlier work to
 cover Wicki-Hayden layout as well, and to support switching modes in real time.
+They also suggested the rainbow colour scheme I use by default.
+
+With a few old ideas and a few new, I set out to make a suite of isomorphic
+tunings for a launchpad that can be applied by connecting the launchpad to a
+microcontroller. It currently supports variations on:
+
+1. [Wicki-Hayden](docs/wicki-hayden.md)
+2. [Tonnetz](docs/tonnetz.md)
+3. [Janko](docs/janko.md)
+4. [Piano/Mandolin](docs/piano.md)
 
 ## Hardware Prerequisites
 
@@ -52,7 +63,7 @@ Although there are multiple ways to manage submodules, the simplest way to get
 everything you need is to use a command like:
 
 ```
-git clone --recurse-submodules https://github.com/duhrer/pico-midi-transformer.git
+git clone --recurse-submodules https://github.com/duhrer/pico-isomorphic-launchpad.git
 ```
 
 ## Pico SDK and Related Tools
@@ -158,6 +169,8 @@ need to configure software like [midiconn](https://github.com/mfep/midiconn) to
 route messages in both directions between the microcontroller and the Launchpad,
 as shown here:
 
+TODO: Create updated diagram with correct names
+
 ![Wiring Diagram](images/connection-map.png)
 
 The key thing to note is that each generation has different ports that need to
@@ -182,17 +195,14 @@ indicate the layout as well as which notes are held.
 The bottom row of circular pads controls which "note layout" and colour scheme
 is used.  From left to right:
 
-1. Wicki-Hayden, "Unstaggered" clockwise (default)
-2. Wicki-Hayden, "Unstaggered" counterclockwise
-3. Tonnetz, "Unstaggered" clockwise
-4. Tonnetz, "Unstaggered" counterclockwise
-5. Tonnetz, "Staggered" layout, rotated
-6. Janko, "Unstaggered" clockwise
-7. Janko, "Unstaggered" counterclockwise
-8. Piano Layout
-
-For more details, see the docs on [Wicki-Hayden](./docs/wicki-hayden.md) and
-[Tonnetz](./docs/tonnetz.md) layouts.
+1. [Wicki-Hayden](docs/wicki-hayden.md), "Unstaggered" clockwise (default)
+2. [Wicki-Hayden](docs/wicki-hayden.md), "Unstaggered" counterclockwise
+3. [Tonnetz](docs/tonnetz.md), "Unstaggered" clockwise
+4. [Tonnetz](docs/tonnetz.md), "Unstaggered" counterclockwise
+5. [Tonnetz](docs/tonnetz.md), "Staggered" layout, rotated
+6. [Janko](docs/janko.md), "Unstaggered" clockwise
+7. [Janko](docs/janko.md), "Unstaggered" counterclockwise
+8. [Piano/Mandolin](docs/piano.md)
 
 ### Selecting the Colour Scheme
 
@@ -204,9 +214,9 @@ used.  From top to bottom:
 3. *Currently unused*
 4. *Currently unused*
 5. *Currently unused*
-6. *Currently unused*
-7. "Rainbow" colour scheme
-8. "Red Cs" colour scheme
+6. "Rainbow" colour scheme
+7. "Red Cs" colour scheme
+8. Strong/Subtle Blues
 
 #### Rainbow
 
@@ -219,6 +229,19 @@ strongly coloured.
 In this colour scheme, all C notes are highlighted in red. The rest of the
 "naturals" are highlighted in white. All sharps and flats are black (unlit). Any
 pad that's held down will be highlighted in blue.
+
+#### Strong/Subtle Blues
+
+This scheme was adapted from the diagrams on the [Wikipedia page on
+Wicki-Hayden](https://en.wikipedia.org/wiki/Wicki%E2%80%93Hayden_note_layout).
+Naturals are presented in "islands" of solid blue (C, D, E) and white (F, G, A,
+B). The corresponding sharps/flats for each "island" are coloured to match, i.e.
+C# and D# are light blue, F#, G#, A# are black. White and black are paired,
+strong blue and light blue are paired. Held notes are highlighted in orange.
+
+In my opinion, this colour scheme is most useful for layouts where there are
+continuous groups of naturals and sharps/flats, such as
+[Wicki-Hayden](docs/wicki-hayden.md) and [Janko](docs/janko.md) 
 
 ### Adjusting the Note Range
 
