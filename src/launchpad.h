@@ -246,9 +246,6 @@ struct board_state {
     // What notes are held
     uint8_t held_note_velocities[128];
 
-    // What notes are already playing
-    uint8_t playing_note_velocities[128];
-
     // Whether we need to redraw (for example, when the tuning changes or a pad is held/released).
     bool is_dirty;
 

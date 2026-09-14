@@ -3,27 +3,19 @@
 #include "tusb.h"
 #include <math.h>
 
-// Common utility functions for all versions
 void clear_all_notes(struct board_state *board_state) {
   for (int a = 0; a < 128; a++) {
     if (board_state ->held_note_velocities[a]) {
       board_state->held_note_velocities[a] = 0;
-    }
-
-    if (board_state -> playing_note_velocities[a]) {
-      board_state->playing_note_velocities[a] = 0;
 
       uint8_t note_off_message[3] = {
           (MIDI_CIN_NOTE_OFF << 4) | board_state -> host.global_midi_channel , a, 0
       };
 
-      // This should use cable 3.
-      tud_midi_stream_write(3, note_off_message, sizeof note_off_message);
+      tud_midi_stream_write(2, note_off_message, sizeof note_off_message);
     }
   }
 }
-
-// End utility functions
 
 // Begin version-specific functions.
 
@@ -338,7 +330,6 @@ void process_incoming_host_packet(uint8_t *incoming_packet, struct board_state *
       uint8_t global_midi_channel = (incoming_packet[1] & 0xf);
       // uint8_t global_midi_channel = 0;
       if (global_midi_channel != board_state -> host.global_midi_channel) {
-        clear_all_notes(board_state);
         board_state -> host.global_midi_channel = global_midi_channel;
       }
     }
@@ -380,17 +371,14 @@ void increment_offset(struct board_state *board_state, enum HostOrClient hostOrC
 // Respond to MK2 controls
 
 void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *board_state, enum HostOrClient hostOrClient) {
-  uint8_t data[3];
-  memcpy(data, incoming_packet + 1, 3);
-  
   int offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[1]; 
 
   // Start with the message type
-  int type = data[0] >> 4;
+  int type = incoming_packet[1] >> 4;
 
   // Handle square pads (notes) and relevant round pads (outside columns)
-  if (type == MIDI_CIN_NOTE_ON || type == MIDI_CIN_NOTE_OFF || type == MIDI_CIN_POLY_KEYPRESS || type == MIDI_CIN_CONTROL_CHANGE) {
-    uint8_t launchpad_note = data[1];
+  if (type == MIDI_CIN_NOTE_ON || type == MIDI_CIN_NOTE_OFF || type == MIDI_CIN_POLY_KEYPRESS) {
+    uint8_t launchpad_note = incoming_packet[2];
 
     if (launchpad_note >=10 && launchpad_note <= 89) {
       int column = launchpad_note % 10;
@@ -399,11 +387,17 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
       // Calculate the note from the row and ofset
       int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
-      // TODO: This is probably where the stickiness comes from, we should just
-      // send the tuned note to the outputs instead.
       if (tuned_note < 128) {
+        uint8_t transformed_packet[3];
+        memcpy(transformed_packet, incoming_packet + 1, 3);
+
+        transformed_packet[1] = tuned_note;
+
+        // Pass along the modified message.
+        tud_midi_stream_write(2, transformed_packet, sizeof transformed_packet);
+
         // Store our velocity in board_state->held_note_velocities
-        board_state->held_note_velocities[tuned_note] = data[2];
+        board_state->held_note_velocities[tuned_note] = incoming_packet[3];
 
         board_state->is_dirty = true;
       }
@@ -411,8 +405,8 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
   }
 
   // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
-  if (type == MIDI_CIN_CONTROL_CHANGE && data[2]) {
-    process_incoming_control_code((uint8_t) data[1], board_state, MarkTwoControlScheme, hostOrClient);
+  else if (type == MIDI_CIN_CONTROL_CHANGE && incoming_packet[3]) {
+    process_incoming_control_code((uint8_t) incoming_packet[2], board_state, MarkTwoControlScheme, hostOrClient);
   }
 }
 
@@ -421,34 +415,36 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
 
 // Respond to MK3 controls
 void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *board_state, enum HostOrClient hostOrClient) {
-  uint8_t data[3];
-  memcpy(data, incoming_packet + 1, 3);
-
   int offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[2]; 
 
   // Start with the message type
-  int type = data[0] >> 4;
+  int type = incoming_packet[1] >> 4;
 
   // Handle square pads (notes) and relevant round pads (outside columns)
-  if (type == MIDI_CIN_NOTE_ON || type == MIDI_CIN_NOTE_OFF || type == MIDI_CIN_POLY_KEYPRESS || type == MIDI_CIN_CONTROL_CHANGE) {
-    if (data[1] >=11 && data[1] <= 89) {
-      int column = data[1] % 10;
+  if (type == MIDI_CIN_NOTE_ON || type == MIDI_CIN_NOTE_OFF || type == MIDI_CIN_POLY_KEYPRESS) {
+    if (incoming_packet[2] >=11 && incoming_packet[2] <= 89) {
+      int column = incoming_packet[2] % 10;
 
       // Skip the first column, which we have to use as controls.
       if (column) {
         // Offset the row by one to skip the very lowest row of buttons and paint the square pads.
-        int row = ((data[1] - column)/10) - 1;
+        int row = ((incoming_packet[2] - column)/10) - 1;
 
 
         // Calculate the note from the row and ofset
         int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
-        // TODO: This is probably where the stickiness comes from, we should just
-        // send the tuned note to the outputs instead.
-
         if (tuned_note < 128) {
+          uint8_t transformed_packet[3];
+          memcpy(transformed_packet, incoming_packet + 1, 3);
+
+          transformed_packet[1] = tuned_note;
+
+          // Pass along the modified message.
+          tud_midi_stream_write(2, transformed_packet, sizeof transformed_packet);
+
           // Store our velocity in board_state -> held_note_velocities
-          board_state->held_note_velocities[tuned_note] = data[2];
+          board_state->held_note_velocities[tuned_note] = incoming_packet[3];
 
           board_state->is_dirty = true;
         }
@@ -457,8 +453,8 @@ void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *
   }
 
   // Only react when a control is changed to a non-zero value, i.e. when it's pressed, and not when it's released.
-  if (type == MIDI_CIN_CONTROL_CHANGE && data[2]) {
-    process_incoming_control_code((uint8_t) data[1], board_state, MarkThreeControlScheme, hostOrClient);
+  else if (type == MIDI_CIN_CONTROL_CHANGE && incoming_packet[3]) {
+    process_incoming_control_code((uint8_t) incoming_packet[2], board_state, MarkThreeControlScheme, hostOrClient);
   }
 }
 
@@ -576,8 +572,8 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
   }
 
   if (state_changed) {
-    board_state->is_dirty = true;
     clear_all_notes(board_state);
+    board_state->is_dirty = true;
   }
 }
 

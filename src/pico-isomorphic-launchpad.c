@@ -51,7 +51,6 @@
 static struct board_state board_state = {
       // Fairly sure this is implied.
       // .held_note_velocities = { 0 },
-      // .playing_note_velocities = { 0 },
 
       .colour_scheme = RainbowColourScheme,
       .colour_scheme_index = 0,
@@ -75,8 +74,6 @@ static struct board_state board_state = {
 // End state variables
 
 void midi_client_task(void);
-
-void sync_playing_notes(void);
 
 void core1_main() {
   sleep_ms(10);
@@ -130,54 +127,8 @@ int main() {
 
       board_state.is_dirty = false;
     }
-
-    sync_playing_notes();
   }
 }
-
-void sync_playing_notes (void) {
-  for (int a = 0; a < 128; a++) {
-    uint32_t bytes_written = 0;
-
-    uint8_t held_velocity = board_state.held_note_velocities[a];
-    uint8_t playing_velocity = board_state.playing_note_velocities[a];
-
-    if (playing_velocity && !held_velocity) {
-      uint8_t note_off_message[3] = {
-          (MIDI_CIN_NOTE_OFF << 4) | board_state.host.global_midi_channel, a, held_velocity
-      };
-
-      // This should use cable 2.
-      bytes_written = tud_midi_stream_write(2, note_off_message, sizeof note_off_message);
-    }
-
-    // Play a new note
-    else if (playing_velocity == 0 && held_velocity) {
-      uint8_t note_on_message[3] = {
-        (MIDI_CIN_NOTE_ON << 4) | board_state.host.global_midi_channel, a, held_velocity
-      };
-
-      // This should use cable 2.
-      bytes_written = tud_midi_stream_write(2, note_on_message, sizeof note_on_message);
-    }
-
-    // Time to indicate that the note's velocity has changed.
-    else if (playing_velocity != held_velocity) {
-      uint8_t poly_message[3] = {
-        (MIDI_CIN_POLY_KEYPRESS << 4) | board_state.host.global_midi_channel, a, held_velocity
-      };
-
-      // This should use cable 2.
-      bytes_written = tud_midi_stream_write(2, poly_message, sizeof poly_message);
-    }
-
-    // If we failed to send the message this time, leave it for the next pass.
-    if (bytes_written > 0) {
-      board_state.playing_note_velocities[a] = held_velocity;
-    }
-  }
-}
-
 
 //--------------------------------------------------------------------+
 // Device callbacks
