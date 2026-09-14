@@ -159,7 +159,7 @@ void paint_mk3_client_launchpads(struct board_state *board_state) {
 }
 
 void paint_host_launchpad(struct board_state *board_state) {
-    if (board_state->host.launchpad_version == MK2) {
+    if (board_state->host.launchpad_version == MK2 || board_state->host.launchpad_version == PERFORMANCE_MK2) {
         paint_mk2_host_launchpad(board_state);
     }
     else if (board_state->host.launchpad_version == MK3) {
@@ -213,6 +213,9 @@ void generate_colour_scheme_messages(struct board_state *board_state, const stru
 
 // TODO: When we figure out sending sysex to the host's client device, we can simplify this.
 void paint_mk2_host_launchpad(struct board_state *board_state) {
+  // int midi_port = board_state->host.launchpad_version == PERFORMANCE_MK2 ? 0 : 1;
+  int midi_port = 0;
+
   // Write note messages for the host side until we figure out sysex there.
   for (int launchpad_note = 10; launchpad_note < 89; launchpad_note++) {
     int column = launchpad_note % 10;
@@ -242,7 +245,8 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
     };
 
     // tuh_midi_stream_write(board_state->host.client_idx, 1, note_on_message, sizeof(note_on_message));
-    tuh_midi_stream_write(0, 1, note_on_message, sizeof(note_on_message));
+    
+    tuh_midi_stream_write(0, midi_port, note_on_message, sizeof(note_on_message));
   } 
 
   // Paint mode controls
@@ -253,7 +257,7 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
   for (int mode_message_index = 0; mode_message_index < 24; mode_message_index += 3) {
     uint8_t control_change_message[3];
     memcpy(control_change_message, mode_messages + mode_message_index, 3);
-    tuh_midi_stream_write(0, 1, control_change_message, sizeof(control_change_message));
+    tuh_midi_stream_write(0, midi_port, control_change_message, sizeof(control_change_message));
   }
 
   // Paint colour controls
@@ -263,7 +267,7 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
   for (int colour_message_index = 0; colour_message_index < 6; colour_message_index += 3) {
     uint8_t control_change_message[3];
     memcpy(control_change_message, colour_scheme_messages + colour_message_index, 3);
-    tuh_midi_stream_write(0, 1, colour_scheme_messages, sizeof(colour_scheme_messages));
+    tuh_midi_stream_write(0, midi_port, colour_scheme_messages, sizeof(colour_scheme_messages));
   }
 }
 
@@ -339,7 +343,7 @@ void process_incoming_host_packet(uint8_t *incoming_packet, struct board_state *
       }
     }
 
-    if (board_state->host.launchpad_version == MK2) {
+    if (board_state->host.launchpad_version == MK2 || board_state->host.launchpad_version == PERFORMANCE_MK2) {
         process_incoming_mk2_packet(incoming_packet, board_state, HOST);
     }
     else if (board_state->host.launchpad_version == MK3) {
@@ -395,6 +399,8 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
       // Calculate the note from the row and ofset
       int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
+      // TODO: This is probably where the stickiness comes from, we should just
+      // send the tuned note to the outputs instead.
       if (tuned_note < 128) {
         // Store our velocity in board_state->held_note_velocities
         board_state->held_note_velocities[tuned_note] = data[2];
@@ -436,6 +442,9 @@ void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *
 
         // Calculate the note from the row and ofset
         int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+
+        // TODO: This is probably where the stickiness comes from, we should just
+        // send the tuned note to the outputs instead.
 
         if (tuned_note < 128) {
           // Store our velocity in board_state -> held_note_velocities
@@ -572,12 +581,67 @@ void process_incoming_control_code (uint8_t controlCodeNumber, struct board_stat
   }
 }
 
-enum LaunchpadVersion get_launchpad_version (uint16_t idVendor, uint16_t idProduct) {
+/*
+
+  For stock Launchpads, we can just use the vendor and product numbers.
+
+  Stock Pro MK2, MIDI channel 0:
+  Bus 007 Device 119: ID 1235:0051 Focusrite-Novation Launchpad Pro
+
+  Stock Pro MK2, MIDI channel 1:
+  Bus 007 Device 121: ID 1235:0052 Focusrite-Novation Launchpad Pro 2
+
+  The "performance" custom firmeware
+  (https://github.com/mat1jaczyyy/lpp-performance-cfw) reuses these, so we also
+  need to look at the strings or use another strategy.
+
+  Pro 2 CFW, MIDI Channel 0:
+  Bus 007 Device 125: ID 1235:0051 Focusrite-Novation Launchpad Open
+
+  Pro 2 CFW, MIDI Channel 1:
+  Bus 007 Device 127: ID 1235:0052 Focusrite-Novation Launchpad Open 2
+
+  There's also this firmware, which I haven't been able to build or install yet:
+  The CoreFW (https://github.com/anthonyhfm/launchpad-core-firmware)
+
+  CoreFW
+  Bus 007 Device 092: ID 1235:0051 Focusrite-Novation Launchpad Pro
+  
+*/
+
+bool contains_string(char *haystack, int haystack_length, char *needle, int needle_length) {
+  int match_length = 0;
+  for (int idx = 0; idx < haystack_length; idx++) {
+    if(haystack[idx] == needle[match_length]) {
+      match_length++;
+    }
+    // Loop back to catch things like neneneedle that have adjoining partial matches
+    else if (haystack[idx] == needle[0]) {
+      match_length = 1;
+    }
+    else {
+      match_length = 0;
+    }
+
+    if (match_length == (needle_length - 1)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+enum LaunchpadVersion get_launchpad_version (uint16_t idVendor, uint16_t idProduct, char *product_string) {
   enum LaunchpadVersion launchpad_version;
 
-  launchpad_version = MK3;
+  launchpad_version = PERFORMANCE_MK2;
 
-  if (idVendor == 0x1235) {
+  return launchpad_version;
+
+  char *toMatch = "Open";
+  if (contains_string(product_string, 128, toMatch, 4)) {
+    launchpad_version = PERFORMANCE_MK2;
+  }
+  else if (idVendor == 0x1235) {
     if (
       idProduct >= 0x0051 && idProduct <= 0x0060
     ) {

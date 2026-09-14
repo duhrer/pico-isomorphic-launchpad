@@ -10,7 +10,8 @@ extern "C" {
 enum LaunchpadVersion {
   UNkNOWN,
   MK2,
-  MK3
+  MK3,
+  PERFORMANCE_MK2
 };
 
 struct LaunchpadControlScheme {
@@ -287,7 +288,7 @@ void process_incoming_external_packet(uint8_t*, struct board_state*);
 
 void process_incoming_control_code (uint8_t, struct board_state*, const struct LaunchpadControlScheme, enum HostOrClient hostOrClient);
 
-enum LaunchpadVersion get_launchpad_version (uint16_t, uint16_t);
+enum LaunchpadVersion get_launchpad_version (uint16_t, uint16_t, char *);
 
 #ifdef __cplusplus
 }
