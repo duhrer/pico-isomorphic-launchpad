@@ -86,7 +86,7 @@ void paint_mk2_client_launchpads(struct board_state *board_state) {
     };
 
     for (int column = 0; column < 8; column++) {
-      int tuned_note = board_state->client.offset_by_cable[1] + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+      int tuned_note = board_state->note_layout.layout_offset + board_state->client.offset_by_cable[1] + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
       if (board_state->held_note_velocities[tuned_note] > 0) {
         paint_row[8 + column] = board_state->colour_scheme.held_colour_velocity;
@@ -120,7 +120,7 @@ void paint_mk3_client_launchpads(struct board_state *board_state) {
       // Offset the row by one to skip the very lowest row of buttons and paint the square pads.
       int launchpad_note = ((row + 1) * 10) + column;
 
-      int tuned_note = board_state->client.offset_by_cable[2] + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+      int tuned_note = board_state->note_layout.layout_offset + board_state->client.offset_by_cable[2] + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
       uint8_t note_offset = tuned_note % 12;
 
@@ -218,7 +218,7 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
     // Skip the first column as we need to keep those black for controls,
     // and anything over 9 to keep ourselves on the square pads.
     if (column && (column < 9)) {
-      int tuned_note = (board_state->host.offset) + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+      int tuned_note = board_state->note_layout.layout_offset + (board_state->host.offset) + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
       if (tuned_note < 128) {
 
@@ -272,7 +272,7 @@ void paint_mk3_host_launchpad(struct board_state *board_state) {
       // Offset the row by one to skip the very lowest row of buttons and paint the square pads.
       int launchpad_note = ((row + 1) * 10) + column;
 
-      int tuned_note = (board_state->host.offset) + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+      int tuned_note = board_state->note_layout.layout_offset + (board_state->host.offset) + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
       
       uint8_t velocity = 0; // Black / Unlit
 
@@ -371,7 +371,7 @@ void increment_offset(struct board_state *board_state, enum HostOrClient hostOrC
 // Respond to MK2 controls
 
 void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *board_state, enum HostOrClient hostOrClient) {
-  int offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[1]; 
+  int user_offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[1]; 
 
   // Start with the message type
   int type = incoming_packet[1] >> 4;
@@ -385,9 +385,9 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
       int row = ((launchpad_note - column)/10) - 1;
 
       // Calculate the note from the row and ofset
-      int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+      int tuned_note = board_state->note_layout.layout_offset + user_offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
-      if (tuned_note < 128) {
+      if (tuned_note >= 0 && tuned_note < 128) {
         uint8_t transformed_packet[3];
         memcpy(transformed_packet, incoming_packet + 1, 3);
 
@@ -415,7 +415,7 @@ void process_incoming_mk2_packet (uint8_t *incoming_packet, struct board_state *
 
 // Respond to MK3 controls
 void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *board_state, enum HostOrClient hostOrClient) {
-  int offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[2]; 
+  int user_offset = hostOrClient == HOST ? board_state -> host.offset : board_state->client.offset_by_cable[2]; 
 
   // Start with the message type
   int type = incoming_packet[1] >> 4;
@@ -432,9 +432,9 @@ void process_incoming_mk3_packet (uint8_t *incoming_packet, struct board_state *
 
 
         // Calculate the note from the row and ofset
-        int tuned_note = offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
+        int tuned_note = board_state->note_layout.layout_offset + user_offset + (column * board_state->note_layout.column_pitch_offset) + (row * board_state->note_layout.row_pitch_offset);
 
-        if (tuned_note < 128) {
+        if (tuned_note >= 0 && tuned_note < 128) {
           uint8_t transformed_packet[3];
           memcpy(transformed_packet, incoming_packet + 1, 3);
 

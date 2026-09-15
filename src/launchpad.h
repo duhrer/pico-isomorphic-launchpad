@@ -84,7 +84,11 @@ static const struct LaunchpadControlScheme MarkThreeControlScheme = {
 struct NoteLayout {
     int8_t row_pitch_offset;
     int8_t column_pitch_offset;
+    int8_t layout_offset;
 };
+
+// Chosen to align the most modes decently.
+#define DEFAULT_OFFSET 59
 
 // Not used, results in bands of the same note along the diagonals and is less playable.
 // Staggered layout
@@ -93,50 +97,82 @@ struct NoteLayout {
 //     .column_pitch_offset = 7
 // };
 
-
-// "Unstaggered" Layout rotated 45 degrees clockwise, set as the default to match
+// "Unstaggered" Layout skewed 45 degrees clockwise, set as the default to match
 // existing instruments.
+// Has a range of (7*5) + (7*2) = 35 + 14 = 49 notes
 static const struct NoteLayout WickiHaydenUnstaggeredClockwise = {
     .row_pitch_offset = 5,
-    .column_pitch_offset = 2
+    .column_pitch_offset = 2,
+    .layout_offset = -1
 };
 
 // "Unstaggered" Layout skewed 45 degrees counterclockwise
+// Has a range of (7*7) + (7*2) = 49 + 14 = 63 notes
 static const struct NoteLayout WickiHaydenUnstaggeredCounterclockwise = {
     .row_pitch_offset = 7,
-    .column_pitch_offset = 2
+    .column_pitch_offset = 2,
+    .layout_offset = -1
 };
 
 
-// "Staggered" Layout
-static const struct NoteLayout TonnetzStaggered = {
-    .row_pitch_offset = -4,
-    .column_pitch_offset = 3 
-};
+// // "Unstaggered" Layout skewed 45 degrees clockwise
+// // Has a range of (8*7) + (7*7) = 56 + 49 = 105 notes
+// static const struct NoteLayout TonnetzUnstaggeredClockwise = {
+//     .row_pitch_offset = 8,
+//     .column_pitch_offset = 7,
+//     .layout_offset = -24
+// };
+
+// // "Unstaggered" Layout skewed 45 degrees clockwise
+// // Has a range of (7 * -4) + (7 * 7), or 21 notes, way too narrow
+// static const struct NoteLayout TonnetzUnstaggeredClockwise = {
+//     .row_pitch_offset = -4,
+//     .column_pitch_offset = 7,
+//     .layout_offset = -24
+// };
 
 // "Unstaggered" Layout skewed 45 degrees clockwise
+// Has a range of (7*8) + (7*-5), also 21 notes
 static const struct NoteLayout TonnetzUnstaggeredClockwise = {
     .row_pitch_offset = 8,
-    .column_pitch_offset = 7 
+    .column_pitch_offset = -5,
+    .layout_offset = 6
 };
+
 
 // "Unstaggered" Layout skewed 45 degrees counterclockwise
+// Has a range of (7*3) + (7*7) = 70 notes
 static const struct NoteLayout TonnetzUnstaggeredCounterclockwise = {
     .row_pitch_offset = 3,
-    .column_pitch_offset = 7 
+    .column_pitch_offset = 7,
+    .layout_offset = -6
 };
 
+// "Staggered" Layout
+// Has a range of (7*-4) + (7*3) notes, or 7 notes.
+static const struct NoteLayout TonnetzStaggered = {
+    .row_pitch_offset = -4,
+    .column_pitch_offset = 3,
+    .layout_offset = -2
+};
+
+
+// Has a range of 7 notes
 static const struct NoteLayout JankoUnstaggeredClockwise = {
     .row_pitch_offset = -1,
-    .column_pitch_offset = 2
+    .column_pitch_offset = 2,
+    .layout_offset = -1
 };
 
+// Has a range of 21 notes
 static const struct NoteLayout JankoUnstaggeredCounterclockwise = {
     .row_pitch_offset = 1,
-    .column_pitch_offset = 2
+    .column_pitch_offset = 2,
+    .layout_offset = -1
 };
 
 // "Piano" Layout
+// Has a range of 56 notes
 static const struct NoteLayout PianoMandolin = {
     .row_pitch_offset = 7,
     .column_pitch_offset = 1

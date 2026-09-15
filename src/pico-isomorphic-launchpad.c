@@ -45,9 +45,6 @@
 
 #include "launchpad.h"
 
-// Chosen to align the most modes decently, especially "piano" mode
-#define DEFAULT_OFFSET 47
-
 static struct board_state board_state = {
       // Fairly sure this is implied.
       // .held_note_velocities = { 0 },
