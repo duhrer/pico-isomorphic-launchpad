@@ -183,12 +183,8 @@ void tuh_midi_mount_cb(uint8_t idx, __attribute__((unused)) const tuh_midi_mount
   // tusb_xfer_result_t tuh_descriptor_get_device_sync(uint8_t daddr, void* buffer, uint16_t len) {
   tuh_descriptor_get_device_sync(mount_cb_data->daddr, &desc.device, 18);
 
-  CFG_TUH_MEM_SECTION char temp_buf[128]; // temp buffer for string descriptor
-
-  tuh_descriptor_get_product_string_sync(mount_cb_data->daddr, LANGUAGE_ID, temp_buf, sizeof(temp_buf));
-
   // printf("Device %u: ID %04x:%04x SN ", daddr, desc.device.idVendor, desc.device.idProduct);
-  board_state.host.launchpad_version = get_launchpad_version(desc.device.idVendor, desc.device.idProduct, temp_buf);
+  board_state.host.launchpad_version = get_launchpad_version(desc.device.idVendor, desc.device.idProduct);
 }
 
 // Invoked when device with MIDI interface is un-mounted

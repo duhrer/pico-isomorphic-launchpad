@@ -151,7 +151,7 @@ void paint_mk3_client_launchpads(struct board_state *board_state) {
 }
 
 void paint_host_launchpad(struct board_state *board_state) {
-    if (board_state->host.launchpad_version == MK2 || board_state->host.launchpad_version == PERFORMANCE_MK2) {
+    if (board_state->host.launchpad_version == MK2) {
         paint_mk2_host_launchpad(board_state);
     }
     else if (board_state->host.launchpad_version == MK3) {
@@ -205,9 +205,6 @@ void generate_colour_scheme_messages(struct board_state *board_state, const stru
 
 // TODO: When we figure out sending sysex to the host's client device, we can simplify this.
 void paint_mk2_host_launchpad(struct board_state *board_state) {
-  // int midi_port = board_state->host.launchpad_version == PERFORMANCE_MK2 ? 0 : 1;
-  int midi_port = 0;
-
   // Write note messages for the host side until we figure out sysex there.
   for (int launchpad_note = 10; launchpad_note < 89; launchpad_note++) {
     int column = launchpad_note % 10;
@@ -236,9 +233,10 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
       (MIDI_CIN_NOTE_ON << 4)  | board_state -> host.global_midi_channel, launchpad_note, velocity
     };
 
-    // tuh_midi_stream_write(board_state->host.client_idx, 1, note_on_message, sizeof(note_on_message));
-    
-    tuh_midi_stream_write(0, midi_port, note_on_message, sizeof(note_on_message));
+    // One copy for performance firmware, which uses one port
+    tuh_midi_stream_write(0, 0, note_on_message, sizeof(note_on_message));
+    // Another copy for stock firmware
+    tuh_midi_stream_write(0, 1, note_on_message, sizeof(note_on_message));
   } 
 
   // Paint mode controls
@@ -249,7 +247,10 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
   for (int mode_message_index = 0; mode_message_index < 24; mode_message_index += 3) {
     uint8_t control_change_message[3];
     memcpy(control_change_message, mode_messages + mode_message_index, 3);
-    tuh_midi_stream_write(0, midi_port, control_change_message, sizeof(control_change_message));
+
+    tuh_midi_stream_write(0, 0, control_change_message, sizeof(control_change_message));
+    tuh_midi_stream_write(0, 1, control_change_message, sizeof(control_change_message));
+
   }
 
   // Paint colour controls
@@ -259,7 +260,8 @@ void paint_mk2_host_launchpad(struct board_state *board_state) {
   for (int colour_message_index = 0; colour_message_index < 6; colour_message_index += 3) {
     uint8_t control_change_message[3];
     memcpy(control_change_message, colour_scheme_messages + colour_message_index, 3);
-    tuh_midi_stream_write(0, midi_port, colour_scheme_messages, sizeof(colour_scheme_messages));
+    tuh_midi_stream_write(0, 0, colour_scheme_messages, sizeof(colour_scheme_messages));
+    tuh_midi_stream_write(0, 1, colour_scheme_messages, sizeof(colour_scheme_messages));
   }
 }
 
@@ -334,7 +336,7 @@ void process_incoming_host_packet(uint8_t *incoming_packet, struct board_state *
       }
     }
 
-    if (board_state->host.launchpad_version == MK2 || board_state->host.launchpad_version == PERFORMANCE_MK2) {
+    if (board_state->host.launchpad_version == MK2) {
         process_incoming_mk2_packet(incoming_packet, board_state, HOST);
     }
     else if (board_state->host.launchpad_version == MK3) {
@@ -626,18 +628,12 @@ bool contains_string(char *haystack, int haystack_length, char *needle, int need
   return false;
 }
 
-enum LaunchpadVersion get_launchpad_version (uint16_t idVendor, uint16_t idProduct, char *product_string) {
+enum LaunchpadVersion get_launchpad_version (uint16_t idVendor, uint16_t idProduct) {
   enum LaunchpadVersion launchpad_version;
 
-  launchpad_version = PERFORMANCE_MK2;
+  launchpad_version = MK2;
 
-  return launchpad_version;
-
-  char *toMatch = "Open";
-  if (contains_string(product_string, 128, toMatch, 4)) {
-    launchpad_version = PERFORMANCE_MK2;
-  }
-  else if (idVendor == 0x1235) {
+  if (idVendor == 0x1235) {
     if (
       idProduct >= 0x0051 && idProduct <= 0x0060
     ) {
